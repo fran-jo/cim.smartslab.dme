@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Created by Cimphony RDF XML Serialiser from Open Grid Systems Ltd.
+	 Bundle: com.cimphony.core.emf.rdf v1.0.0
+	Created: 2015-10-30T18:20:24-->
+<rdf:RDF xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:ns0="http://iec.ch/TC57/2012/CIM-schema-cim16#" xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <ns0:TopologicalNode rdf:ID="_f586d030-1e1f-11e4-a682-080027008896">
+  <ns0:TopologicalNode.SvVoltage rdf:resource="#_019e8430-1e20-11e4-a682-080027008896"/>
+ </ns0:TopologicalNode>
+ <ns0:SynchronousMachineTimeConstantReactance rdf:ID="_54302da0-b02c-11e3-af35-080027008896">
+  <ns0:IdentifiedObject.aliasName>GENCLS_DYN</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>RoundRotor Dynamics</ns0:IdentifiedObject.name>
+  <ns0:SynchronousMachineDynamics.SynchronousMachine rdf:resource="#_6501d560-074e-11e4-aa24-080027008896"/>
+  <ns0:SynchronousMachineTimeConstantReactance.rotorType rdf:resource="http://iec.ch/TC57/2012/CIM-schema-cim16#RotorKind.roundRotor"/>
+  <ns0:SynchronousMachineTimeConstantReactance.tpdo>0.30000001192092896</ns0:SynchronousMachineTimeConstantReactance.tpdo>
+  <ns0:SynchronousMachineTimeConstantReactance.tppdo>0.15000000596046448</ns0:SynchronousMachineTimeConstantReactance.tppdo>
+  <ns0:SynchronousMachineTimeConstantReactance.tppqo>0.11999999731779099</ns0:SynchronousMachineTimeConstantReactance.tppqo>
+  <ns0:SynchronousMachineTimeConstantReactance.tpqo>0.25</ns0:SynchronousMachineTimeConstantReactance.tpqo>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectSubtrans>0.7200000286102295</ns0:SynchronousMachineTimeConstantReactance.xDirectSubtrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectSync>0.11999999731779099</ns0:SynchronousMachineTimeConstantReactance.xDirectSync>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectTrans>0.36000001430511475</ns0:SynchronousMachineTimeConstantReactance.xDirectTrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadSubtrans>0.23999999463558197</ns0:SynchronousMachineTimeConstantReactance.xQuadSubtrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadSync>0.05999999865889549</ns0:SynchronousMachineTimeConstantReactance.xQuadSync>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadTrans>0.11999999731779099</ns0:SynchronousMachineTimeConstantReactance.xQuadTrans>
+ </ns0:SynchronousMachineTimeConstantReactance>
+ <ns0:SvVoltage rdf:ID="_019e8430-1e20-11e4-a682-080027008896">
+  <ns0:SvVoltage.angle>2.2699999809265137</ns0:SvVoltage.angle>
+  <ns0:SvVoltage.v>0.8500000238418579</ns0:SvVoltage.v>
+  <ns0:SvVoltage.TopologicalNode rdf:resource="#_f586d030-1e1f-11e4-a682-080027008896"/>
+ </ns0:SvVoltage>
+ <cim:BasePower rdf:ID="_09fca280-4015-11e4-9459-080027008896">
+  <cim:BasePower.basePower>400</cim:BasePower.basePower>
+ </cim:BasePower>
+ <cim:BaseFrequency rdf:ID="_036bba00-4015-11e4-9459-080027008896"/>
+ <ns0:Terminal rdf:ID="_b95009c0-1e1e-11e4-a682-080027008896">
+  <ns0:IdentifiedObject.aliasName>p_out</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>Pin out</ns0:IdentifiedObject.name>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_6501d560-074e-11e4-aa24-080027008896"/>
+  <ns0:Terminal.SvPowerFlow rdf:resource="#_c46ce300-1e1e-11e4-a682-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_f586d030-1e1f-11e4-a682-080027008896"/>
+ </ns0:Terminal>
+ <ns0:SvPowerFlow rdf:ID="_c46ce300-1e1e-11e4-a682-080027008896">
+  <ns0:SvPowerFlow.p>0.9835000038146973</ns0:SvPowerFlow.p>
+  <ns0:SvPowerFlow.q>-0.9534000158309937</ns0:SvPowerFlow.q>
+  <ns0:SvPowerFlow.Terminal rdf:resource="#_b95009c0-1e1e-11e4-a682-080027008896"/>
+ </ns0:SvPowerFlow>
+ <ns0:SynchronousMachine rdf:ID="_6501d560-074e-11e4-aa24-080027008896">
+  <ns0:IdentifiedObject.aliasName>GENCLS</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>gencls</ns0:IdentifiedObject.name>
+  <ns0:ConductingEquipment.BaseVoltage rdf:resource="#_bca09d90-7f1d-11e5-bb45-080027008896"/>
+  <ns0:RotatingMachine.damping>5</ns0:RotatingMachine.damping>
+  <ns0:RotatingMachine.inertia>2.5</ns0:RotatingMachine.inertia>
+  <ns0:RotatingMachine.ratedS>100</ns0:RotatingMachine.ratedS>
+  <ns0:RotatingMachine.saturationFactor>0.10000000149011612</ns0:RotatingMachine.saturationFactor>
+  <ns0:RotatingMachine.saturationFactor120>0.11999999731779099</ns0:RotatingMachine.saturationFactor120>
+  <ns0:RotatingMachine.statorLeakageReactance>0.8500000238418579</ns0:RotatingMachine.statorLeakageReactance>
+  <ns0:RotatingMachine.statorResistance>1.399999976158142</ns0:RotatingMachine.statorResistance>
+  <ns0:RotatingMachine.GeneratingUnit rdf:resource="#_70eec660-1c77-11e4-baa0-080027008896"/>
+  <ns0:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2012/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+  <ns0:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2012/CIM-schema-cim16#SynchronousMachineKind.generator"/>
+  <ns0:SynchronousMachine.x>0.009999999776482582</ns0:SynchronousMachine.x>
+  <ns0:SynchronousMachine.SynchronousMachineDynamics rdf:resource="#_54302da0-b02c-11e3-af35-080027008896"/>
+ </ns0:SynchronousMachine>
+ <ns0:GeneratingUnit rdf:ID="_70eec660-1c77-11e4-baa0-080027008896">
+  <ns0:IdentifiedObject.name></ns0:IdentifiedObject.name>
+  <ns0:GeneratingUnit.baseP>50</ns0:GeneratingUnit.baseP>
+  <ns0:GeneratingUnit.initialP>0</ns0:GeneratingUnit.initialP>
+  <ns0:GeneratingUnit.nominalP>45</ns0:GeneratingUnit.nominalP>
+ </ns0:GeneratingUnit>
+ <ns0:BaseVoltage rdf:ID="_bca09d90-7f1d-11e5-bb45-080027008896"/>
+</rdf:RDF>

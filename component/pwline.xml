@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Created by Cimphony RDF XML Serialiser from Open Grid Systems Ltd.
+	 Bundle: com.cimphony.core.emf.rdf v1.0.0
+	Created: 2016-02-09T00:29:58-->
+<rdf:RDF xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <cim:ACLineSegment rdf:ID="_d82e7e40-cebb-11e5-9c5d-e4ce8f0a4c58"/>
+</rdf:RDF>

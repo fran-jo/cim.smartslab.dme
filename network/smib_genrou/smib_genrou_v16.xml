@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Created by Cimphony RDF XML Serialiser from Open Grid Systems Ltd.
+	 Bundle: com.cimphony.core.emf.rdf v1.0.0
+	Created: 2014-07-29T17:28:35-->
+<rdf:RDF xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <cim:Terminal rdf:ID="_b244eb25-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>ACLine1_T1</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>1 T1</cim:IdentifiedObject.name>
+  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+  <cim:Terminal.ConductingEquipment rdf:resource="#_b244eb24-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.ConnectivityNode rdf:resource="#_15680870-0e66-11e4-9498-080027008896"/>
+  <cim:Terminal.TopologicalNode rdf:resource="#_b2438b91-e1b8-11e3-9271-080027008896"/>
+ </cim:Terminal>
+ <cim:Terminal rdf:ID="_b24475f0-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>SyncM_T1</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>1 T1</cim:IdentifiedObject.name>
+  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+  <cim:Terminal.ConductingEquipment rdf:resource="#_b2444ee4-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.ConnectivityNode rdf:resource="#_15680870-0e66-11e4-9498-080027008896"/>
+  <cim:Terminal.SvPowerFlow rdf:resource="#_b24475f1-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.TopologicalNode rdf:resource="#_b2438b91-e1b8-11e3-9271-080027008896"/>
+ </cim:Terminal>
+ <cim:SvPowerFlow rdf:ID="_b24475f1-e1b8-11e3-9271-080027008896">
+  <cim:SvPowerFlow.p>-50.01100158691406</cim:SvPowerFlow.p>
+  <cim:SvPowerFlow.q>-2.506999969482422</cim:SvPowerFlow.q>
+  <cim:SvPowerFlow.Terminal rdf:resource="#_b24475f0-e1b8-11e3-9271-080027008896"/>
+ </cim:SvPowerFlow>
+ <cim:DiagramObjectPoint rdf:ID="_baaba730-0e7d-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>2</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>272</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>261</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_baaabcd0-0e7d-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_baab3200-0e7d-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>1</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>272</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>310</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_baaabcd0-0e7d-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:VoltageLevel rdf:ID="_b24400c2-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>LOAD100.0KV</cim:IdentifiedObject.name>
+  <cim:VoltageLevel.BaseVoltage rdf:resource="#_b243b2a0-e1b8-11e3-9271-080027008896"/>
+  <cim:VoltageLevel.Substation rdf:resource="#_b244eb21-e1b8-11e3-9271-080027008896"/>
+ </cim:VoltageLevel>
+ <cim:DiagramObject rdf:ID="_16a669f0-0e68-11e4-9498-080027008896">
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_0a77e480-0e66-11e4-9498-080027008896"/>
+ </cim:DiagramObject>
+ <cim:Terminal rdf:ID="_b24427d3-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>EC_T1</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>1 T1</cim:IdentifiedObject.name>
+  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+  <cim:Terminal.ConductingEquipment rdf:resource="#_b24427d2-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.ConnectivityNode rdf:resource="#_2020efc0-0e66-11e4-9498-080027008896"/>
+  <cim:Terminal.SvPowerFlow rdf:resource="#_b2444ee1-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.TopologicalNode rdf:resource="#_b243d9b3-e1b8-11e3-9271-080027008896"/>
+ </cim:Terminal>
+ <cim:OperatingShare rdf:ID="_b24427d0-e1b8-11e3-9271-080027008896">
+  <cim:OperatingShare.percentage>100</cim:OperatingShare.percentage>
+  <cim:OperatingShare.OperatingParticipant rdf:resource="#_b243d9b0-e1b8-11e3-9271-080027008896"/>
+  <cim:OperatingShare.PowerSystemResource rdf:resource="#_b243d9b4-e1b8-11e3-9271-080027008896"/>
+ </cim:OperatingShare>
+ <cim:SynchronousMachine rdf:ID="_b2444ee4-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>GENROU</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>RoundRotor Generator</cim:IdentifiedObject.name>
+  <cim:Equipment.EquipmentContainer rdf:resource="#_b243b2a4-e1b8-11e3-9271-080027008896"/>
+  <cim:RegulatingCondEq.RegulatingControl rdf:resource="#_b24475f2-e1b8-11e3-9271-080027008896"/>
+  <cim:RotatingMachine.ratedS>100</cim:RotatingMachine.ratedS>
+  <cim:RotatingMachine.GeneratingUnit rdf:resource="#_b2444ee3-e1b8-11e3-9271-080027008896"/>
+  <cim:SynchronousMachine.baseQ>2.506999969482422</cim:SynchronousMachine.baseQ>
+  <cim:SynchronousMachine.maxQ>100</cim:SynchronousMachine.maxQ>
+  <cim:SynchronousMachine.minQ>-100</cim:SynchronousMachine.minQ>
+  <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+  <cim:SynchronousMachine.qPercent>100</cim:SynchronousMachine.qPercent>
+  <cim:SynchronousMachine.r>0</cim:SynchronousMachine.r>
+  <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+  <cim:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineKind.generator"/>
+  <cim:SynchronousMachine.SynchronousMachineDynamics rdf:resource="#_142b7c90-1734-11e4-ab0c-080027008896"/>
+ </cim:SynchronousMachine>
+ <cim:DiagramObjectPoint rdf:ID="_16946890-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>2</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>201</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>393</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_1693a540-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:OperatingParticipant rdf:ID="_b243d9b0-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>1</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>Default</cim:IdentifiedObject.name>
+ </cim:OperatingParticipant>
+ <cim:DiagramObjectPoint rdf:ID="_bab65590-0e7d-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>0</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>415</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>899</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_bab5e060-0e7d-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_bab54420-0e7d-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>0</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>590</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>830</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_bab4cef0-0e7d-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:SubGeographicalRegion rdf:ID="_b244eb20-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>1</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>DEFAULT</cim:IdentifiedObject.name>
+  <cim:SubGeographicalRegion.Region rdf:resource="#_6E10083B83C482108365D42010ED281A"/>
+ </cim:SubGeographicalRegion>
+ <cim:Line rdf:ID="_b244eb22-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>1</cim:IdentifiedObject.name>
+  <cim:Line.Region rdf:resource="#_b244eb20-e1b8-11e3-9271-080027008896"/>
+ </cim:Line>
+ <cim:OperatingShare rdf:ID="_b2451233-e1b8-11e3-9271-080027008896">
+  <cim:OperatingShare.percentage>100</cim:OperatingShare.percentage>
+  <cim:OperatingShare.OperatingParticipant rdf:resource="#_b243d9b0-e1b8-11e3-9271-080027008896"/>
+  <cim:OperatingShare.PowerSystemResource rdf:resource="#_b2451232-e1b8-11e3-9271-080027008896"/>
+ </cim:OperatingShare>
+ <cim:DiagramObjectPoint rdf:ID="_16a49530-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>0</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>443</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_16a42000-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:BusbarSection rdf:ID="_b243b2a1-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>GENERATOR</cim:IdentifiedObject.name>
+  <cim:Equipment.EquipmentContainer rdf:resource="#_b243b2a4-e1b8-11e3-9271-080027008896"/>
+ </cim:BusbarSection>
+ <cim:DiagramObject rdf:ID="_baa67710-0e7d-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>2 Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b2451234-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:Substation rdf:ID="_b244c414-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>GENERATOR</cim:IdentifiedObject.name>
+  <cim:Substation.Region rdf:resource="#_b244eb20-e1b8-11e3-9271-080027008896"/>
+ </cim:Substation>
+ <cim:OperatingShare rdf:ID="_b243d9b1-e1b8-11e3-9271-080027008896">
+  <cim:OperatingShare.percentage>100</cim:OperatingShare.percentage>
+  <cim:OperatingShare.OperatingParticipant rdf:resource="#_b243d9b0-e1b8-11e3-9271-080027008896"/>
+  <cim:OperatingShare.PowerSystemResource rdf:resource="#_b243b2a1-e1b8-11e3-9271-080027008896"/>
+ </cim:OperatingShare>
+ <cim:EnergyConsumer rdf:ID="_b24427d2-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>Load1</cim:IdentifiedObject.name>
+  <cim:Equipment.EquipmentContainer rdf:resource="#_b24400c2-e1b8-11e3-9271-080027008896"/>
+  <cim:EnergyConsumer.pfixed>50.07500076293945</cim:EnergyConsumer.pfixed>
+  <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
+  <cim:EnergyConsumer.LoadDynamics rdf:resource="#_86399e40-0c1f-11e4-9196-080027008896"/>
+  <cim:EnergyConsumer.LoadResponse rdf:resource="#_b2444ee0-e1b8-11e3-9271-080027008896"/>
+ </cim:EnergyConsumer>
+ <cim:DiagramObjectPoint rdf:ID="_169727b0-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>2</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>261</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_1695c820-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:ConnectivityNode rdf:ID="_2020efc0-0e66-11e4-9498-080027008896"/>
+ <cim:TopologicalNode rdf:ID="_b2438b91-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>1</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>GENERATOR</cim:IdentifiedObject.name>
+  <cim:TopologicalNode.BaseVoltage rdf:resource="#_b243b2a0-e1b8-11e3-9271-080027008896"/>
+  <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_b243b2a4-e1b8-11e3-9271-080027008896"/>
+  <cim:TopologicalNode.SvVoltage rdf:resource="#_b243d9b2-e1b8-11e3-9271-080027008896"/>
+  <cim:TopologicalNode.TopologicalIsland rdf:resource="#_b2438b90-e1b8-11e3-9271-080027008896"/>
+ </cim:TopologicalNode>
+ <cim:ConnectivityNode rdf:ID="_282d7bc0-0e66-11e4-9498-080027008896"/>
+ <cim:DiagramObject rdf:ID="_16a42000-0e68-11e4-9498-080027008896">
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_0184c910-0e66-11e4-9498-080027008896"/>
+ </cim:DiagramObject>
+ <cim:DiagramObject rdf:ID="_16992380-0e68-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>1 T2 Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b2451230-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:OperatingShare rdf:ID="_b24475f3-e1b8-11e3-9271-080027008896">
+  <cim:OperatingShare.percentage>100</cim:OperatingShare.percentage>
+  <cim:OperatingShare.OperatingParticipant rdf:resource="#_b243d9b0-e1b8-11e3-9271-080027008896"/>
+  <cim:OperatingShare.PowerSystemResource rdf:resource="#_b2444ee3-e1b8-11e3-9271-080027008896"/>
+ </cim:OperatingShare>
+ <cim:TopologicalNode rdf:ID="_b243d9b3-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>2</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>LOAD</cim:IdentifiedObject.name>
+  <cim:TopologicalNode.BaseVoltage rdf:resource="#_b243b2a0-e1b8-11e3-9271-080027008896"/>
+  <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_b24400c2-e1b8-11e3-9271-080027008896"/>
+  <cim:TopologicalNode.SvVoltage rdf:resource="#_b24427d1-e1b8-11e3-9271-080027008896"/>
+  <cim:TopologicalNode.TopologicalIsland rdf:resource="#_b2438b90-e1b8-11e3-9271-080027008896"/>
+ </cim:TopologicalNode>
+ <cim:DiagramObject rdf:ID="_faa8f4e0-0e65-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>1 Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b24427d2-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:DiagramObject rdf:ID="_16a55880-0e68-11e4-9498-080027008896">
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_f4cd52a0-0e65-11e4-9498-080027008896"/>
+ </cim:DiagramObject>
+ <cim:DiagramObjectPoint rdf:ID="_16963d50-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>1</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>311</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_1695c820-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_16a1af00-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>1</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>202</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_16a139d0-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:SvVoltage rdf:ID="_b243d9b2-e1b8-11e3-9271-080027008896">
+  <cim:SvVoltage.angle>2.8575000762939453</cim:SvVoltage.angle>
+  <cim:SvVoltage.v>99.99700164794922</cim:SvVoltage.v>
+  <cim:SvVoltage.TopologicalNode rdf:resource="#_b2438b91-e1b8-11e3-9271-080027008896"/>
+ </cim:SvVoltage>
+ <cim:BusbarSection rdf:ID="_b243d9b4-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>LOAD</cim:IdentifiedObject.name>
+  <cim:Equipment.EquipmentContainer rdf:resource="#_b24400c2-e1b8-11e3-9271-080027008896"/>
+ </cim:BusbarSection>
+ <cim:DiagramObjectPoint rdf:ID="_baa73a60-0e7d-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>2</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>271</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>390</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_baa67710-0e7d-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_fa9d5c20-0e65-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>2</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>289</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>261</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_fa9bfc90-0e65-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_baa95d40-0e7d-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>2</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>271</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>434</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_baa84bd0-0e7d-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_faa96a10-0e65-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>0</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>515</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_faa8f4e0-0e65-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:ConnectivityNode rdf:ID="_0184c910-0e66-11e4-9498-080027008896"/>
+ <cim:DiagramObject rdf:ID="_baaabcd0-0e7d-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>2 T1 Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b2453940-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:DiagramObject rdf:ID="_1695c820-0e68-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>1 T1 Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b244eb25-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:VoltageLevel rdf:ID="_b243b2a4-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>GENERATOR100.0KV</cim:IdentifiedObject.name>
+  <cim:VoltageLevel.BaseVoltage rdf:resource="#_b243b2a0-e1b8-11e3-9271-080027008896"/>
+  <cim:VoltageLevel.Substation rdf:resource="#_b244c414-e1b8-11e3-9271-080027008896"/>
+ </cim:VoltageLevel>
+ <cim:Terminal rdf:ID="_b2453941-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>ACLine2_T2</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>2 T2</cim:IdentifiedObject.name>
+  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
+  <cim:Terminal.ConductingEquipment rdf:resource="#_b2451234-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.ConnectivityNode rdf:resource="#_2020efc0-0e66-11e4-9498-080027008896"/>
+  <cim:Terminal.TopologicalNode rdf:resource="#_b243d9b3-e1b8-11e3-9271-080027008896"/>
+ </cim:Terminal>
+ <cim:OperatingShare rdf:ID="_b2444ee2-e1b8-11e3-9271-080027008896">
+  <cim:OperatingShare.percentage>100</cim:OperatingShare.percentage>
+  <cim:OperatingShare.OperatingParticipant rdf:resource="#_b243d9b0-e1b8-11e3-9271-080027008896"/>
+  <cim:OperatingShare.PowerSystemResource rdf:resource="#_b24427d2-e1b8-11e3-9271-080027008896"/>
+ </cim:OperatingShare>
+ <cim:ConnectivityNode rdf:ID="_a7149ff0-0e65-11e4-9498-080027008896"/>
+ <cim:LoadMotor rdf:ID="_fb171170-0c1f-11e4-9196-080027008896">
+  <cim:LoadMotor.LoadAggregate rdf:resource="#_86399e40-0c1f-11e4-9196-080027008896"/>
+ </cim:LoadMotor>
+ <cim:DiagramObjectPoint rdf:ID="_169e0580-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>1</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>499</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_169d4230-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_16a6df20-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>0</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>426</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_16a669f0-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:LoadArea rdf:ID="_b2449d01-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>DEFAULT</cim:IdentifiedObject.name>
+  <cim:EnergyArea.ControlArea rdf:resource="#_b2449d00-e1b8-11e3-9271-080027008896"/>
+ </cim:LoadArea>
+ <cim:ConnectivityNode rdf:ID="_15680870-0e66-11e4-9498-080027008896"/>
+ <cim:DiagramObject rdf:ID="_bab4cef0-0e7d-11e4-9498-080027008896">
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_104555f0-0e66-11e4-9498-080027008896"/>
+ </cim:DiagramObject>
+ <cim:DiagramObject rdf:ID="_faaa5470-0e65-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>1 Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b2444ee4-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:Terminal rdf:ID="_b24400c0-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>BusLoad_T1</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>LOAD T1</cim:IdentifiedObject.name>
+  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+  <cim:ACDCTerminal.BusNameMarker rdf:resource="#_b24400c1-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.ConductingEquipment rdf:resource="#_b243d9b4-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.ConnectivityNode rdf:resource="#_2020efc0-0e66-11e4-9498-080027008896"/>
+  <cim:Terminal.TopologicalNode rdf:resource="#_b243d9b3-e1b8-11e3-9271-080027008896"/>
+ </cim:Terminal>
+ <cim:BusNameMarker rdf:ID="_b243b2a3-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>1</cim:IdentifiedObject.name>
+ </cim:BusNameMarker>
+ <cim:GeneratingUnit rdf:ID="_b2449d02-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>1</cim:IdentifiedObject.name>
+  <cim:GeneratingUnit.initialP>-49.97800064086914</cim:GeneratingUnit.initialP>
+  <cim:GeneratingUnit.maxOperatingP>9999</cim:GeneratingUnit.maxOperatingP>
+  <cim:GeneratingUnit.minOperatingP>-9999</cim:GeneratingUnit.minOperatingP>
+  <cim:GeneratingUnit.nominalP>-49.97800064086914</cim:GeneratingUnit.nominalP>
+  <cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
+ </cim:GeneratingUnit>
+ <cim:DiagramObject rdf:ID="_1693a540-0e68-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>1 Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b244eb24-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:Diagram rdf:ID="_fa9ac410-0e65-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>Diagram</cim:IdentifiedObject.name>
+  <cim:Diagram.orientation rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#OrientationKind.negative"/>
+ </cim:Diagram>
+ <cim:TopologicalIsland rdf:ID="_b2438b90-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>Island</cim:IdentifiedObject.name>
+ </cim:TopologicalIsland>
+ <cim:SvVoltage rdf:ID="_b24427d1-e1b8-11e3-9271-080027008896">
+  <cim:SvVoltage.angle>-0.012799999676644802</cim:SvVoltage.angle>
+  <cim:SvVoltage.v>99.84700012207031</cim:SvVoltage.v>
+  <cim:SvVoltage.TopologicalNode rdf:resource="#_b243d9b3-e1b8-11e3-9271-080027008896"/>
+ </cim:SvVoltage>
+ <cim:BaseVoltage rdf:ID="_b243b2a0-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>100.0KV</cim:IdentifiedObject.name>
+  <cim:BaseVoltage.nominalVoltage>100</cim:BaseVoltage.nominalVoltage>
+ </cim:BaseVoltage>
+ <cim:DiagramObjectPoint rdf:ID="_16a22430-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>2</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>261</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_16a139d0-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_baa8c100-0e7d-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>1</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>271</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>390</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_baa84bd0-0e7d-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:Substation rdf:ID="_b244eb21-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>LOAD</cim:IdentifiedObject.name>
+  <cim:Substation.Region rdf:resource="#_b244eb20-e1b8-11e3-9271-080027008896"/>
+ </cim:Substation>
+ <cim:ControlAreaGeneratingUnit rdf:ID="_b24475f4-e1b8-11e3-9271-080027008896">
+  <cim:ControlAreaGeneratingUnit.ControlArea rdf:resource="#_b2449d00-e1b8-11e3-9271-080027008896"/>
+  <cim:ControlAreaGeneratingUnit.GeneratingUnit rdf:resource="#_b2444ee3-e1b8-11e3-9271-080027008896"/>
+ </cim:ControlAreaGeneratingUnit>
+ <cim:OperationalLimitSet rdf:ID="_b2453942-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>2</cim:IdentifiedObject.name>
+  <cim:OperationalLimitSet.Equipment rdf:resource="#_b2451234-e1b8-11e3-9271-080027008896"/>
+  <cim:OperationalLimitSet.Terminal rdf:resource="#_b2453940-e1b8-11e3-9271-080027008896"/>
+ </cim:OperationalLimitSet>
+ <cim:GeneratingUnit rdf:ID="_b2444ee3-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>1</cim:IdentifiedObject.name>
+  <cim:GeneratingUnit.initialP>50.01100158691406</cim:GeneratingUnit.initialP>
+  <cim:GeneratingUnit.maxOperatingP>100</cim:GeneratingUnit.maxOperatingP>
+  <cim:GeneratingUnit.minOperatingP>-100</cim:GeneratingUnit.minOperatingP>
+  <cim:GeneratingUnit.nominalP>50.01100158691406</cim:GeneratingUnit.nominalP>
+  <cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
+ </cim:GeneratingUnit>
+ <cim:RegulatingControl rdf:ID="_b24475f2-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>1</cim:IdentifiedObject.name>
+  <cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>
+  <cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
+  <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+  <cim:RegulatingControl.targetValue>100</cim:RegulatingControl.targetValue>
+  <cim:RegulatingControl.Terminal rdf:resource="#_b24475f0-e1b8-11e3-9271-080027008896"/>
+ </cim:RegulatingControl>
+ <cim:ConnectivityNode rdf:ID="_104555f0-0e66-11e4-9498-080027008896"/>
+ <cim:DiagramObjectPoint rdf:ID="_baa6ec40-0e7d-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>1</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>272</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>310</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_baa67710-0e7d-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_fa9fcd20-0e65-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>1</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>177</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>434</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_fa9f30e0-0e65-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_16a817a0-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>0</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>570</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>1127</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_16a7a270-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObject rdf:ID="_fa9bfc90-0e65-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>GENERATOR Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b243b2a1-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:DiagramObject rdf:ID="_baa84bd0-0e7d-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>2 T2 Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b2453941-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:ACLineSegment rdf:ID="_b2451234-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>ACLine2</cim:IdentifiedObject.name>
+  <cim:Equipment.EquipmentContainer rdf:resource="#_b2451232-e1b8-11e3-9271-080027008896"/>
+  <cim:ConductingEquipment.BaseVoltage rdf:resource="#_b243b2a0-e1b8-11e3-9271-080027008896"/>
+  <cim:Conductor.length>0</cim:Conductor.length>
+  <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
+  <cim:ACLineSegment.r>0.10000000149011612</cim:ACLineSegment.r>
+  <cim:ACLineSegment.x>20</cim:ACLineSegment.x>
+ </cim:ACLineSegment>
+ <cim:ControlAreaGeneratingUnit rdf:ID="_b244c413-e1b8-11e3-9271-080027008896">
+  <cim:ControlAreaGeneratingUnit.ControlArea rdf:resource="#_b2449d00-e1b8-11e3-9271-080027008896"/>
+  <cim:ControlAreaGeneratingUnit.GeneratingUnit rdf:resource="#_b2449d02-e1b8-11e3-9271-080027008896"/>
+ </cim:ControlAreaGeneratingUnit>
+ <cim:LoadAggregate rdf:ID="_86399e40-0c1f-11e4-9196-080027008896">
+  <cim:LoadAggregate.LoadMotor rdf:resource="#_fb171170-0c1f-11e4-9196-080027008896"/>
+ </cim:LoadAggregate>
+ <cim:DiagramObjectPoint rdf:ID="_faaaf0b0-0e65-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>0</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>186</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_faaa5470-0e65-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_169e7ab0-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>2</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>434</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_169d4230-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObject rdf:ID="_16a7a270-0e68-11e4-9498-080027008896">
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_a7149ff0-0e65-11e4-9498-080027008896"/>
+ </cim:DiagramObject>
+ <cim:ConnectivityNode rdf:ID="_0a77e480-0e66-11e4-9498-080027008896"/>
+ <cim:LoadResponseCharacteristic rdf:ID="_b2444ee0-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>1</cim:IdentifiedObject.name>
+  <cim:LoadResponseCharacteristic.exponentModel>false</cim:LoadResponseCharacteristic.exponentModel>
+  <cim:LoadResponseCharacteristic.pConstantCurrent>1</cim:LoadResponseCharacteristic.pConstantCurrent>
+  <cim:LoadResponseCharacteristic.pConstantImpedance>0</cim:LoadResponseCharacteristic.pConstantImpedance>
+  <cim:LoadResponseCharacteristic.pConstantPower>0</cim:LoadResponseCharacteristic.pConstantPower>
+  <cim:LoadResponseCharacteristic.qConstantCurrent>0</cim:LoadResponseCharacteristic.qConstantCurrent>
+  <cim:LoadResponseCharacteristic.qConstantImpedance>0</cim:LoadResponseCharacteristic.qConstantImpedance>
+  <cim:LoadResponseCharacteristic.qConstantPower>0</cim:LoadResponseCharacteristic.qConstantPower>
+ </cim:LoadResponseCharacteristic>
+ <cim:DiagramObject rdf:ID="_bab5e060-0e7d-11e4-9498-080027008896">
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_282d7bc0-0e66-11e4-9498-080027008896"/>
+ </cim:DiagramObject>
+ <cim:Terminal rdf:ID="_b2451230-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>ACLine1_T2</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>1 T2</cim:IdentifiedObject.name>
+  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
+  <cim:Terminal.ConductingEquipment rdf:resource="#_b244eb24-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.ConnectivityNode rdf:resource="#_2020efc0-0e66-11e4-9498-080027008896"/>
+  <cim:Terminal.TopologicalNode rdf:resource="#_b243d9b3-e1b8-11e3-9271-080027008896"/>
+ </cim:Terminal>
+ <cim:DiagramObjectPoint rdf:ID="_169a0de0-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>2</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>201</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>434</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_16992380-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:ConnectivityNode rdf:ID="_f4cd52a0-0e65-11e4-9498-080027008896"/>
+ <cim:DiagramObjectPoint rdf:ID="_fa9cbfe0-0e65-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>1</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>177</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>261</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_fa9bfc90-0e65-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:Line rdf:ID="_b2451232-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>2</cim:IdentifiedObject.name>
+  <cim:Line.Region rdf:resource="#_b244eb20-e1b8-11e3-9271-080027008896"/>
+ </cim:Line>
+ <cim:OperatingShare rdf:ID="_b244c412-e1b8-11e3-9271-080027008896">
+  <cim:OperatingShare.percentage>100</cim:OperatingShare.percentage>
+  <cim:OperatingShare.OperatingParticipant rdf:resource="#_b243d9b0-e1b8-11e3-9271-080027008896"/>
+  <cim:OperatingShare.PowerSystemResource rdf:resource="#_b2449d02-e1b8-11e3-9271-080027008896"/>
+ </cim:OperatingShare>
+ <cim:DiagramObjectPoint rdf:ID="_16a5cdb0-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>0</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>252</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_16a55880-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObjectPoint rdf:ID="_169998b0-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>1</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>201</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>393</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_16992380-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:SvPowerFlow rdf:ID="_b2444ee1-e1b8-11e3-9271-080027008896">
+  <cim:SvPowerFlow.p>50.07500076293945</cim:SvPowerFlow.p>
+  <cim:SvPowerFlow.q>0</cim:SvPowerFlow.q>
+  <cim:SvPowerFlow.Terminal rdf:resource="#_b24427d3-e1b8-11e3-9271-080027008896"/>
+ </cim:SvPowerFlow>
+ <cim:DiagramObjectPoint rdf:ID="_16941a70-0e68-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>1</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>200</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>311</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_1693a540-0e68-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:DiagramObject rdf:ID="_fa9f30e0-0e65-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>LOAD Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b243d9b4-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:OperatingShare rdf:ID="_b244eb23-e1b8-11e3-9271-080027008896">
+  <cim:OperatingShare.percentage>100</cim:OperatingShare.percentage>
+  <cim:OperatingShare.OperatingParticipant rdf:resource="#_b243d9b0-e1b8-11e3-9271-080027008896"/>
+  <cim:OperatingShare.PowerSystemResource rdf:resource="#_b244eb22-e1b8-11e3-9271-080027008896"/>
+ </cim:OperatingShare>
+ <cim:ControlArea rdf:ID="_b2449d00-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>1</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>DEFAULT</cim:IdentifiedObject.name>
+  <cim:ControlArea.netInterchange>0</cim:ControlArea.netInterchange>
+  <cim:ControlArea.pTolerance>10</cim:ControlArea.pTolerance>
+  <cim:ControlArea.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#ControlAreaTypeKind.Interchange"/>
+  <cim:ControlArea.EnergyArea rdf:resource="#_b2449d01-e1b8-11e3-9271-080027008896"/>
+ </cim:ControlArea>
+ <cim:DiagramObject rdf:ID="_169d4230-0e68-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>1 T1 Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b24427d3-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:OperationalLimitSet rdf:ID="_b2451231-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>1</cim:IdentifiedObject.name>
+  <cim:OperationalLimitSet.Equipment rdf:resource="#_b244eb24-e1b8-11e3-9271-080027008896"/>
+  <cim:OperationalLimitSet.Terminal rdf:resource="#_b244eb25-e1b8-11e3-9271-080027008896"/>
+ </cim:OperationalLimitSet>
+ <cim:GeographicalRegion rdf:ID="_6E10083B83C482108365D42010ED281A">
+  <cim:IdentifiedObject.name>ES</cim:IdentifiedObject.name>
+ </cim:GeographicalRegion>
+ <cim:DiagramObject rdf:ID="_16a139d0-0e68-11e4-9498-080027008896">
+  <cim:IdentifiedObject.name>1 T1 Diagram Object Diagram</cim:IdentifiedObject.name>
+  <cim:DiagramObject.rotation>0</cim:DiagramObject.rotation>
+  <cim:DiagramObject.Diagram rdf:resource="#_fa9ac410-0e65-11e4-9498-080027008896"/>
+  <cim:DiagramObject.IdentifiedObject rdf:resource="#_b24475f0-e1b8-11e3-9271-080027008896"/>
+ </cim:DiagramObject>
+ <cim:DiagramObjectPoint rdf:ID="_faa04250-0e65-11e4-9498-080027008896">
+  <cim:DiagramObjectPoint.sequenceNumber>2</cim:DiagramObjectPoint.sequenceNumber>
+  <cim:DiagramObjectPoint.xPosition>289</cim:DiagramObjectPoint.xPosition>
+  <cim:DiagramObjectPoint.yPosition>434</cim:DiagramObjectPoint.yPosition>
+  <cim:DiagramObjectPoint.DiagramObject rdf:resource="#_fa9f30e0-0e65-11e4-9498-080027008896"/>
+ </cim:DiagramObjectPoint>
+ <cim:Terminal rdf:ID="_b243b2a2-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>BusGen_T1</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>GENERATOR T1</cim:IdentifiedObject.name>
+  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+  <cim:ACDCTerminal.BusNameMarker rdf:resource="#_b243b2a3-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.ConductingEquipment rdf:resource="#_b243b2a1-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.ConnectivityNode rdf:resource="#_15680870-0e66-11e4-9498-080027008896"/>
+  <cim:Terminal.TopologicalNode rdf:resource="#_b2438b91-e1b8-11e3-9271-080027008896"/>
+ </cim:Terminal>
+ <cim:ACLineSegment rdf:ID="_b244eb24-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>ACLine1</cim:IdentifiedObject.name>
+  <cim:Equipment.EquipmentContainer rdf:resource="#_b244eb22-e1b8-11e3-9271-080027008896"/>
+  <cim:ConductingEquipment.BaseVoltage rdf:resource="#_b243b2a0-e1b8-11e3-9271-080027008896"/>
+  <cim:Conductor.length>0</cim:Conductor.length>
+  <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
+  <cim:ACLineSegment.r>0.10000000149011612</cim:ACLineSegment.r>
+  <cim:ACLineSegment.x>20</cim:ACLineSegment.x>
+ </cim:ACLineSegment>
+ <cim:BusNameMarker rdf:ID="_b24400c1-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.name>2</cim:IdentifiedObject.name>
+ </cim:BusNameMarker>
+ <cim:Terminal rdf:ID="_b2453940-e1b8-11e3-9271-080027008896">
+  <cim:IdentifiedObject.aliasName>ACLine2_T1</cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.name>2 T1</cim:IdentifiedObject.name>
+  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+  <cim:Terminal.ConductingEquipment rdf:resource="#_b2451234-e1b8-11e3-9271-080027008896"/>
+  <cim:Terminal.ConnectivityNode rdf:resource="#_15680870-0e66-11e4-9498-080027008896"/>
+  <cim:Terminal.TopologicalNode rdf:resource="#_b2438b91-e1b8-11e3-9271-080027008896"/>
+ </cim:Terminal>
+ <cim:SvStatus rdf:ID="_afac8440-1732-11e4-ab0c-080027008896"/>
+ <cim:SvStatus rdf:ID="_c3521e60-1732-11e4-ab0c-080027008896"/>
+ <cim:SynchronousMachineTimeConstantReactance rdf:ID="_142b7c90-1734-11e4-ab0c-080027008896">
+  <entsoe:IdentifiedObject.energyIdentCodeEic></entsoe:IdentifiedObject.energyIdentCodeEic>
+  <cim:RotatingMachineDynamics.damping>0</cim:RotatingMachineDynamics.damping>
+  <cim:RotatingMachineDynamics.inertia>3</cim:RotatingMachineDynamics.inertia>
+  <cim:RotatingMachineDynamics.saturationFactor>0.11749999970197678</cim:RotatingMachineDynamics.saturationFactor>
+  <cim:RotatingMachineDynamics.saturationFactor120>0.41999998688697815</cim:RotatingMachineDynamics.saturationFactor120>
+  <cim:SynchronousMachineDynamics.SynchronousMachine rdf:resource="#_b2444ee4-e1b8-11e3-9271-080027008896"/>
+  <cim:SynchronousMachineTimeConstantReactance.tpdo>6.150000095367432</cim:SynchronousMachineTimeConstantReactance.tpdo>
+  <cim:SynchronousMachineTimeConstantReactance.tppdo>0.10999999940395355</cim:SynchronousMachineTimeConstantReactance.tppdo>
+  <cim:SynchronousMachineTimeConstantReactance.tppqo>0.10000000149011612</cim:SynchronousMachineTimeConstantReactance.tppqo>
+  <cim:SynchronousMachineTimeConstantReactance.tpqo>0.30000001192092896</cim:SynchronousMachineTimeConstantReactance.tpqo>
+  <cim:SynchronousMachineTimeConstantReactance.xDirectSubtrans>0.20000000298023224</cim:SynchronousMachineTimeConstantReactance.xDirectSubtrans>
+  <cim:SynchronousMachineTimeConstantReactance.xDirectSync>1.156999945640564</cim:SynchronousMachineTimeConstantReactance.xDirectSync>
+  <cim:SynchronousMachineTimeConstantReactance.xDirectTrans>0.24199999868869781</cim:SynchronousMachineTimeConstantReactance.xDirectTrans>
+  <cim:SynchronousMachineTimeConstantReactance.xQuadSubtrans>0.20000000298023224</cim:SynchronousMachineTimeConstantReactance.xQuadSubtrans>
+  <cim:SynchronousMachineTimeConstantReactance.xQuadSync>0.9679999947547913</cim:SynchronousMachineTimeConstantReactance.xQuadSync>
+  <cim:SynchronousMachineTimeConstantReactance.xQuadTrans>0.4269999861717224</cim:SynchronousMachineTimeConstantReactance.xQuadTrans>
+ </cim:SynchronousMachineTimeConstantReactance>
+</rdf:RDF>

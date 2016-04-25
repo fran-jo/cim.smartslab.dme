@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Created by Cimphony RDF XML Serialiser from Open Grid Systems Ltd.
+	 Bundle: com.cimphony.core.emf.rdf v1.0.0
+	Created: 2016-01-28T15:47:33-->
+<rdf:RDF xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:cim="http://iec.ch/TC57/2012/CIM-schema-cim16#" xmlns:ns0="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <ns0:OperatingShare rdf:ID="_90b1afb0-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b188a2-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:Line rdf:ID="_90b495e4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>57</ns0:IdentifiedObject.name>
+  <ns0:Line.Region rdf:resource="#_90b33654-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Line>
+ <ns0:TopologicalIsland rdf:ID="_90b00200-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Island</ns0:IdentifiedObject.name>
+ </ns0:TopologicalIsland>
+ <ns0:SynchronousMachineTimeConstantReactance rdf:ID="_fa8ebd20-9e7c-11e5-a1af-080027008896">
+  <entsoe:IdentifiedObject.shortName></entsoe:IdentifiedObject.shortName>
+  <ns0:RotatingMachineDynamics.damping>0.6700000166893005</ns0:RotatingMachineDynamics.damping>
+  <ns0:RotatingMachineDynamics.inertia>3.3299999237060547</ns0:RotatingMachineDynamics.inertia>
+  <ns0:RotatingMachineDynamics.saturationFactor>1.0099999904632568</ns0:RotatingMachineDynamics.saturationFactor>
+  <ns0:RotatingMachineDynamics.saturationFactor120>1.0199999809265137</ns0:RotatingMachineDynamics.saturationFactor120>
+  <ns0:RotatingMachineDynamics.statorLeakageReactance>0.10000000149011612</ns0:RotatingMachineDynamics.statorLeakageReactance>
+  <ns0:SynchronousMachineDynamics.SynchronousMachine rdf:resource="#_90b2c123-8a32-11e5-b5f4-080027008896"/>
+  <ns0:SynchronousMachineTimeConstantReactance.tpdo>6</ns0:SynchronousMachineTimeConstantReactance.tpdo>
+  <ns0:SynchronousMachineTimeConstantReactance.tppdo>0.05000000074505806</ns0:SynchronousMachineTimeConstantReactance.tppdo>
+  <ns0:SynchronousMachineTimeConstantReactance.tppqo>0.05000000074505806</ns0:SynchronousMachineTimeConstantReactance.tppqo>
+  <ns0:SynchronousMachineTimeConstantReactance.tpqo>0.5350000262260437</ns0:SynchronousMachineTimeConstantReactance.tpqo>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectSubtrans>0.20999999344348907</ns0:SynchronousMachineTimeConstantReactance.xDirectSubtrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectSync>1.7200000286102295</ns0:SynchronousMachineTimeConstantReactance.xDirectSync>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectTrans>0.23000000417232513</ns0:SynchronousMachineTimeConstantReactance.xDirectTrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadSubtrans>0.20999999344348907</ns0:SynchronousMachineTimeConstantReactance.xQuadSubtrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadSync>1.659999966621399</ns0:SynchronousMachineTimeConstantReactance.xQuadSync>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadTrans>0.3700000047683716</ns0:SynchronousMachineTimeConstantReactance.xQuadTrans>
+ </ns0:SynchronousMachineTimeConstantReactance>
+ <ns0:TopologicalNode rdf:ID="_90b0ec60-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>4</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>BUS4</ns0:IdentifiedObject.name>
+  <ns0:TopologicalNode.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_90b11370-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.SvVoltage rdf:resource="#_90b11372-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.TopologicalIsland rdf:resource="#_90b00200-8a32-11e5-b5f4-080027008896"/>
+ </ns0:TopologicalNode>
+ <ns0:CurrentLimit rdf:ID="_90b50b12-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>WarningTrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b50b11-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>376.53277587890625</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:OperatingShare rdf:ID="_90b4e402-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b4e401-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:TopologicalNode rdf:ID="_90b00201-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>1</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>BUS1</ns0:IdentifiedObject.name>
+  <ns0:TopologicalNode.BaseVoltage rdf:resource="#_90b00202-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_90b02912-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.SvVoltage rdf:resource="#_90b05020-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.TopologicalIsland rdf:resource="#_90b00200-8a32-11e5-b5f4-080027008896"/>
+ </ns0:TopologicalNode>
+ <ns0:SvVoltage rdf:ID="_90b1d6c3-8a32-11e5-b5f4-080027008896">
+  <ns0:SvVoltage.angle>0.7269999980926514</ns0:SvVoltage.angle>
+  <ns0:SvVoltage.v>233.65240478515625</ns0:SvVoltage.v>
+  <ns0:SvVoltage.TopologicalNode rdf:resource="#_90b1afb2-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvVoltage>
+ <ns0:BusNameMarker rdf:ID="_90b0ec64-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>4</ns0:IdentifiedObject.name>
+ </ns0:BusNameMarker>
+ <ns0:Substation rdf:ID="_90b3f9a3-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS5</ns0:IdentifiedObject.name>
+  <ns0:Substation.Region rdf:resource="#_90b33654-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Substation>
+ <ns0:BusbarSection rdf:ID="_90b0c550-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS3</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b0c553-8a32-11e5-b5f4-080027008896"/>
+ </ns0:BusbarSection>
+ <ns0:BusNameMarker rdf:ID="_90b02911-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>1</ns0:IdentifiedObject.name>
+ </ns0:BusNameMarker>
+ <ns0:PowerTransformerEnd rdf:ID="_90b3d291-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T3 TWT3 Primary</ns0:IdentifiedObject.name>
+  <ns0:TransformerEnd.endNumber>1</ns0:TransformerEnd.endNumber>
+  <ns0:TransformerEnd.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TransformerEnd.RatioTapChanger rdf:resource="#_72a77e80-8ec1-11e5-9959-080027008896"/>
+  <ns0:TransformerEnd.Terminal rdf:resource="#_90b3d292-8a32-11e5-b5f4-080027008896"/>
+  <ns0:PowerTransformerEnd.b>0</ns0:PowerTransformerEnd.b>
+  <ns0:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+  <ns0:PowerTransformerEnd.g>0</ns0:PowerTransformerEnd.g>
+  <ns0:PowerTransformerEnd.r>0</ns0:PowerTransformerEnd.r>
+  <ns0:PowerTransformerEnd.ratedS>0</ns0:PowerTransformerEnd.ratedS>
+  <ns0:PowerTransformerEnd.ratedU>230</ns0:PowerTransformerEnd.ratedU>
+  <ns0:PowerTransformerEnd.x>0.0625</ns0:PowerTransformerEnd.x>
+  <ns0:PowerTransformerEnd.PowerTransformer rdf:resource="#_90b3ab85-8a32-11e5-b5f4-080027008896"/>
+ </ns0:PowerTransformerEnd>
+ <ns0:RegulatingControl rdf:ID="_90b29a12-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>G1</ns0:IdentifiedObject.name>
+  <ns0:RegulatingControl.discrete>true</ns0:RegulatingControl.discrete>
+  <ns0:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
+  <ns0:RegulatingControl.targetDeadband>0</ns0:RegulatingControl.targetDeadband>
+  <ns0:RegulatingControl.targetValue>17.15999984741211</ns0:RegulatingControl.targetValue>
+  <ns0:RegulatingControl.Terminal rdf:resource="#_90b29a10-8a32-11e5-b5f4-080027008896"/>
+ </ns0:RegulatingControl>
+ <ns0:ACLineSegment rdf:ID="_90b4e403-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln69</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b4e401-8a32-11e5-b5f4-080027008896"/>
+  <ns0:ConductingEquipment.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Conductor.length>150</ns0:Conductor.length>
+  <ns0:ACLineSegment.bch>0.17900000512599945</ns0:ACLineSegment.bch>
+  <ns0:ACLineSegment.gch>0</ns0:ACLineSegment.gch>
+  <ns0:ACLineSegment.r>0.039000000804662704</ns0:ACLineSegment.r>
+  <ns0:ACLineSegment.x>0.17000000178813934</ns0:ACLineSegment.x>
+ </ns0:ACLineSegment>
+ <ns0:OperationalLimitSet rdf:ID="_90b420b5-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>45</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b420b2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b420b3-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:BusNameMarker rdf:ID="_90b1d6c0-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>8</ns0:IdentifiedObject.name>
+ </ns0:BusNameMarker>
+ <ns0:LoadResponseCharacteristic rdf:ID="_90b27300-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>L8</ns0:IdentifiedObject.name>
+  <ns0:LoadResponseCharacteristic.exponentModel>false</ns0:LoadResponseCharacteristic.exponentModel>
+  <ns0:LoadResponseCharacteristic.pConstantCurrent>0</ns0:LoadResponseCharacteristic.pConstantCurrent>
+  <ns0:LoadResponseCharacteristic.pConstantImpedance>0</ns0:LoadResponseCharacteristic.pConstantImpedance>
+  <ns0:LoadResponseCharacteristic.pConstantPower>1</ns0:LoadResponseCharacteristic.pConstantPower>
+  <ns0:LoadResponseCharacteristic.qConstantCurrent>0</ns0:LoadResponseCharacteristic.qConstantCurrent>
+  <ns0:LoadResponseCharacteristic.qConstantImpedance>0</ns0:LoadResponseCharacteristic.qConstantImpedance>
+  <ns0:LoadResponseCharacteristic.qConstantPower>1</ns0:LoadResponseCharacteristic.qConstantPower>
+ </ns0:LoadResponseCharacteristic>
+ <ns0:BusNameMarker rdf:ID="_90b1fdd1-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>9</ns0:IdentifiedObject.name>
+ </ns0:BusNameMarker>
+ <ns0:Terminal rdf:ID="_90b224e0-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ld5_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b1fdd5-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.SvPowerFlow rdf:resource="#_90b224e2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b11373-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:ACLineSegment rdf:ID="_90b53222-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln78</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b53220-8a32-11e5-b5f4-080027008896"/>
+  <ns0:ConductingEquipment.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Conductor.length>220</ns0:Conductor.length>
+  <ns0:ACLineSegment.bch>0.07450000196695328</ns0:ACLineSegment.bch>
+  <ns0:ACLineSegment.gch>0</ns0:ACLineSegment.gch>
+  <ns0:ACLineSegment.r>0.008500000461935997</ns0:ACLineSegment.r>
+  <ns0:ACLineSegment.x>0.07199999690055847</ns0:ACLineSegment.x>
+ </ns0:ACLineSegment>
+ <ns0:SvVoltage rdf:ID="_90b0c555-8a32-11e5-b5f4-080027008896">
+  <ns0:SvVoltage.angle>4.664299964904785</ns0:SvVoltage.angle>
+  <ns0:SvVoltage.v>14.144999504089355</ns0:SvVoltage.v>
+  <ns0:SvVoltage.TopologicalNode rdf:resource="#_90b09e43-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvVoltage>
+ <ns0:OperationalLimitSet rdf:ID="_90b58042-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>89</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b55935-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b58040-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:CurrentLimit rdf:ID="_90b4e400-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Alarm</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b4bcf3-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:OperatingShare rdf:ID="_90b35d65-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b33652-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:Terminal rdf:ID="_90b0c551-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS3_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:ACDCTerminal.BusNameMarker rdf:resource="#_90b0c552-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b0c550-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b09e43-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:OperatingShare rdf:ID="_90b46ed2-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b46ed1-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:SynchronousMachine rdf:ID="_90b2c123-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.description></ns0:IdentifiedObject.description>
+  <ns0:IdentifiedObject.name>Gn2</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b09e40-8a32-11e5-b5f4-080027008896"/>
+  <ns0:RegulatingCondEq.controlEnabled>false</ns0:RegulatingCondEq.controlEnabled>
+  <ns0:RegulatingCondEq.RegulatingControl rdf:resource="#_90b2e830-8a32-11e5-b5f4-080027008896"/>
+  <ns0:RotatingMachine.ratedS>320</ns0:RotatingMachine.ratedS>
+  <ns0:RotatingMachine.GeneratingUnit rdf:resource="#_90b2c122-8a32-11e5-b5f4-080027008896"/>
+  <ns0:SynchronousMachine.baseQ>6.65500020980835</ns0:SynchronousMachine.baseQ>
+  <ns0:SynchronousMachine.coolantType rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#CoolantType.hydrogenGas"/>
+  <ns0:SynchronousMachine.maxQ>300</ns0:SynchronousMachine.maxQ>
+  <ns0:SynchronousMachine.minQ>-300</ns0:SynchronousMachine.minQ>
+  <ns0:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+  <ns0:SynchronousMachine.qPercent>100</ns0:SynchronousMachine.qPercent>
+  <ns0:SynchronousMachine.r>0.0003239999932702631</ns0:SynchronousMachine.r>
+  <ns0:SynchronousMachine.referencePriority>0</ns0:SynchronousMachine.referencePriority>
+  <ns0:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineKind.generator"/>
+  <ns0:SynchronousMachine.SynchronousMachineDynamics rdf:resource="#_fa8ebd20-9e7c-11e5-a1af-080027008896"/>
+ </ns0:SynchronousMachine>
+ <ns0:OperatingShare rdf:ID="_90b495e5-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b495e4-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:RatioTapChanger rdf:ID="_a6e245a0-8ec0-11e5-9959-080027008896">
+  <ns0:TapChanger.ltcFlag>false</ns0:TapChanger.ltcFlag>
+  <ns0:TapChanger.step>1</ns0:TapChanger.step>
+  <ns0:RatioTapChanger.TransformerEnd rdf:resource="#_90b3ab81-8a32-11e5-b5f4-080027008896"/>
+ </ns0:RatioTapChanger>
+ <ns0:Terminal rdf:ID="_90b53224-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln78_T2</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>2</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b53222-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b1afb2-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:TopologicalNode rdf:ID="_90b1d6c4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>9</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>BUS9</ns0:IdentifiedObject.name>
+  <ns0:TopologicalNode.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_90b1fdd2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.SvVoltage rdf:resource="#_90b1fdd4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.TopologicalIsland rdf:resource="#_90b00200-8a32-11e5-b5f4-080027008896"/>
+ </ns0:TopologicalNode>
+ <ns0:PowerTransformer rdf:ID="_90b38470-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T2</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b38471-8a32-11e5-b5f4-080027008896"/>
+ </ns0:PowerTransformer>
+ <ns0:GeneratingUnit rdf:ID="_90b27303-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>G1</ns0:IdentifiedObject.name>
+  <ns0:GeneratingUnit.baseP>100</ns0:GeneratingUnit.baseP>
+  <ns0:GeneratingUnit.initialP>71.66100311279297</ns0:GeneratingUnit.initialP>
+  <ns0:GeneratingUnit.maxOperatingP>250</ns0:GeneratingUnit.maxOperatingP>
+  <ns0:GeneratingUnit.minOperatingP>10</ns0:GeneratingUnit.minOperatingP>
+  <ns0:GeneratingUnit.nominalP>71.66100311279297</ns0:GeneratingUnit.nominalP>
+  <ns0:GeneratingUnit.normalPF>1</ns0:GeneratingUnit.normalPF>
+ </ns0:GeneratingUnit>
+ <ns0:SvVoltage rdf:ID="_90b188a0-8a32-11e5-b5f4-080027008896">
+  <ns0:SvVoltage.angle>-3.687999963760376</ns0:SvVoltage.angle>
+  <ns0:SvVoltage.v>232.9095001220703</ns0:SvVoltage.v>
+  <ns0:SvVoltage.TopologicalNode rdf:resource="#_90b16190-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvVoltage>
+ <ns0:VoltageLevel rdf:ID="_90b13a82-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS5230.0KV</ns0:IdentifiedObject.name>
+  <ns0:VoltageLevel.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:VoltageLevel.Substation rdf:resource="#_90b3f9a3-8a32-11e5-b5f4-080027008896"/>
+ </ns0:VoltageLevel>
+ <ns0:TopologicalNode rdf:ID="_90b05021-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>2</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>BUS2</ns0:IdentifiedObject.name>
+  <ns0:TopologicalNode.BaseVoltage rdf:resource="#_90b05022-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_90b09e40-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.SvVoltage rdf:resource="#_90b09e42-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.TopologicalIsland rdf:resource="#_90b00200-8a32-11e5-b5f4-080027008896"/>
+ </ns0:TopologicalNode>
+ <ns0:Terminal rdf:ID="_90b4bcf1-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln57_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b4bcf0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b11373-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:BaseVoltage rdf:ID="_90b09e44-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>13.8KV</ns0:IdentifiedObject.name>
+  <ns0:BaseVoltage.nominalVoltage>13.800000190734863</ns0:BaseVoltage.nominalVoltage>
+ </ns0:BaseVoltage>
+ <ns0:Terminal rdf:ID="_90b53223-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln78_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b53222-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b188a1-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:PowerTransformerEnd rdf:ID="_90b3ab81-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T2 TWT2 Secondary</ns0:IdentifiedObject.name>
+  <ns0:TransformerEnd.endNumber>2</ns0:TransformerEnd.endNumber>
+  <ns0:TransformerEnd.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TransformerEnd.RatioTapChanger rdf:resource="#_a6e245a0-8ec0-11e5-9959-080027008896"/>
+  <ns0:TransformerEnd.Terminal rdf:resource="#_90b3ab82-8a32-11e5-b5f4-080027008896"/>
+  <ns0:PowerTransformerEnd.b>0</ns0:PowerTransformerEnd.b>
+  <ns0:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+  <ns0:PowerTransformerEnd.g>0</ns0:PowerTransformerEnd.g>
+  <ns0:PowerTransformerEnd.r>0</ns0:PowerTransformerEnd.r>
+  <ns0:PowerTransformerEnd.ratedS>0</ns0:PowerTransformerEnd.ratedS>
+  <ns0:PowerTransformerEnd.ratedU>230</ns0:PowerTransformerEnd.ratedU>
+  <ns0:PowerTransformerEnd.x>0.0575999990105629</ns0:PowerTransformerEnd.x>
+  <ns0:PowerTransformerEnd.PowerTransformer rdf:resource="#_90b38470-8a32-11e5-b5f4-080027008896"/>
+ </ns0:PowerTransformerEnd>
+ <ns0:OperatingShare rdf:ID="_90b0c554-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b0c550-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:Terminal rdf:ID="_90b2c124-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Gn2_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b2c123-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.SvPowerFlow rdf:resource="#_90b2c125-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b05021-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:SvVoltage rdf:ID="_90b05020-8a32-11e5-b5f4-080027008896">
+  <ns0:SvVoltage.angle>0</ns0:SvVoltage.angle>
+  <ns0:SvVoltage.v>17.15999984741211</ns0:SvVoltage.v>
+  <ns0:SvVoltage.TopologicalNode rdf:resource="#_90b00201-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvVoltage>
+ <ns0:GeneratingUnit rdf:ID="_90b2c122-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>G2</ns0:IdentifiedObject.name>
+  <ns0:GeneratingUnit.baseP>100</ns0:GeneratingUnit.baseP>
+  <ns0:GeneratingUnit.initialP>163</ns0:GeneratingUnit.initialP>
+  <ns0:GeneratingUnit.maxOperatingP>300</ns0:GeneratingUnit.maxOperatingP>
+  <ns0:GeneratingUnit.minOperatingP>20</ns0:GeneratingUnit.minOperatingP>
+  <ns0:GeneratingUnit.nominalP>163</ns0:GeneratingUnit.nominalP>
+  <ns0:GeneratingUnit.normalPF>0</ns0:GeneratingUnit.normalPF>
+ </ns0:GeneratingUnit>
+ <ns0:Terminal rdf:ID="_90b13a80-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS5_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:ACDCTerminal.BusNameMarker rdf:resource="#_90b13a81-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b11374-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b11373-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:BaseVoltage rdf:ID="_90b00202-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>16.5KV</ns0:IdentifiedObject.name>
+  <ns0:BaseVoltage.nominalVoltage>16.5</ns0:BaseVoltage.nominalVoltage>
+ </ns0:BaseVoltage>
+ <ns0:RegulatingControl rdf:ID="_90b2e830-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>G2</ns0:IdentifiedObject.name>
+  <ns0:RegulatingControl.discrete>true</ns0:RegulatingControl.discrete>
+  <ns0:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
+  <ns0:RegulatingControl.targetDeadband>0</ns0:RegulatingControl.targetDeadband>
+  <ns0:RegulatingControl.targetValue>18.53999900817871</ns0:RegulatingControl.targetValue>
+  <ns0:RegulatingControl.Terminal rdf:resource="#_90b2c124-8a32-11e5-b5f4-080027008896"/>
+ </ns0:RegulatingControl>
+ <ns0:EnergyConsumer rdf:ID="_90b24bf4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ld8</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b1d6c1-8a32-11e5-b5f4-080027008896"/>
+  <ns0:EnergyConsumer.pfixed>100</ns0:EnergyConsumer.pfixed>
+  <ns0:EnergyConsumer.qfixed>35</ns0:EnergyConsumer.qfixed>
+  <ns0:EnergyConsumer.LoadResponse rdf:resource="#_90b27300-8a32-11e5-b5f4-080027008896"/>
+ </ns0:EnergyConsumer>
+ <ns0:CurrentLimit rdf:ID="_90b495e2-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>TrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b495e0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:TopologicalNode rdf:ID="_90b11373-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>5</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>BUS5</ns0:IdentifiedObject.name>
+  <ns0:TopologicalNode.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_90b13a82-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.SvVoltage rdf:resource="#_90b13a85-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.TopologicalIsland rdf:resource="#_90b00200-8a32-11e5-b5f4-080027008896"/>
+ </ns0:TopologicalNode>
+ <ns0:BusNameMarker rdf:ID="_90b0c552-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>3</ns0:IdentifiedObject.name>
+ </ns0:BusNameMarker>
+ <ns0:SvVoltage rdf:ID="_90b1fdd4-8a32-11e5-b5f4-080027008896">
+  <ns0:SvVoltage.angle>1.9661999940872192</ns0:SvVoltage.angle>
+  <ns0:SvVoltage.v>237.44049072265625</ns0:SvVoltage.v>
+  <ns0:SvVoltage.TopologicalNode rdf:resource="#_90b1d6c4-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvVoltage>
+ <ns0:OperatingShare rdf:ID="_90b16195-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b13a83-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b16191-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:PowerTransformerEnd rdf:ID="_90b33655-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T1 TWT1 Primary</ns0:IdentifiedObject.name>
+  <ns0:TransformerEnd.endNumber>1</ns0:TransformerEnd.endNumber>
+  <ns0:TransformerEnd.BaseVoltage rdf:resource="#_90b00202-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TransformerEnd.RatioTapChanger rdf:resource="#_6717e640-8ec1-11e5-9959-080027008896"/>
+  <ns0:TransformerEnd.Terminal rdf:resource="#_90b35d60-8a32-11e5-b5f4-080027008896"/>
+  <ns0:PowerTransformerEnd.b>0</ns0:PowerTransformerEnd.b>
+  <ns0:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+  <ns0:PowerTransformerEnd.g>0</ns0:PowerTransformerEnd.g>
+  <ns0:PowerTransformerEnd.r>0</ns0:PowerTransformerEnd.r>
+  <ns0:PowerTransformerEnd.ratedS>0</ns0:PowerTransformerEnd.ratedS>
+  <ns0:PowerTransformerEnd.ratedU>16.5</ns0:PowerTransformerEnd.ratedU>
+  <ns0:PowerTransformerEnd.x>0.05860000103712082</ns0:PowerTransformerEnd.x>
+  <ns0:PowerTransformerEnd.PowerTransformer rdf:resource="#_90b33652-8a32-11e5-b5f4-080027008896"/>
+ </ns0:PowerTransformerEnd>
+ <ns0:Terminal rdf:ID="_90b188a3-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS7_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:ACDCTerminal.BusNameMarker rdf:resource="#_90b188a4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b188a2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b188a1-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:BusbarSection rdf:ID="_90b16191-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS6</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b16194-8a32-11e5-b5f4-080027008896"/>
+ </ns0:BusbarSection>
+ <ns0:SvPowerFlow rdf:ID="_90b224e2-8a32-11e5-b5f4-080027008896">
+  <ns0:SvPowerFlow.p>125</ns0:SvPowerFlow.p>
+  <ns0:SvPowerFlow.q>50</ns0:SvPowerFlow.q>
+  <ns0:SvPowerFlow.Terminal rdf:resource="#_90b224e0-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvPowerFlow>
+ <ns0:SvPowerFlow rdf:ID="_90b27301-8a32-11e5-b5f4-080027008896">
+  <ns0:SvPowerFlow.p>100</ns0:SvPowerFlow.p>
+  <ns0:SvPowerFlow.q>35</ns0:SvPowerFlow.q>
+  <ns0:SvPowerFlow.Terminal rdf:resource="#_90b24bf5-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvPowerFlow>
+ <ns0:BusNameMarker rdf:ID="_90b07732-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>2</ns0:IdentifiedObject.name>
+ </ns0:BusNameMarker>
+ <ns0:Substation rdf:ID="_90b3f9a5-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS8</ns0:IdentifiedObject.name>
+  <ns0:Substation.Region rdf:resource="#_90b38472-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Substation>
+ <ns0:PowerTransformerEnd rdf:ID="_90b3d294-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T3 TWT3 Secondary</ns0:IdentifiedObject.name>
+  <ns0:TransformerEnd.endNumber>2</ns0:TransformerEnd.endNumber>
+  <ns0:TransformerEnd.BaseVoltage rdf:resource="#_90b09e44-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TransformerEnd.RatioTapChanger rdf:resource="#_7acd5ee0-8ec1-11e5-9959-080027008896"/>
+  <ns0:TransformerEnd.Terminal rdf:resource="#_90b3f9a0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:PowerTransformerEnd.b>0</ns0:PowerTransformerEnd.b>
+  <ns0:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+  <ns0:PowerTransformerEnd.g>0</ns0:PowerTransformerEnd.g>
+  <ns0:PowerTransformerEnd.r>0</ns0:PowerTransformerEnd.r>
+  <ns0:PowerTransformerEnd.ratedS>0</ns0:PowerTransformerEnd.ratedS>
+  <ns0:PowerTransformerEnd.ratedU>13.800000190734863</ns0:PowerTransformerEnd.ratedU>
+  <ns0:PowerTransformerEnd.x>0.0625</ns0:PowerTransformerEnd.x>
+  <ns0:PowerTransformerEnd.PowerTransformer rdf:resource="#_90b3ab85-8a32-11e5-b5f4-080027008896"/>
+ </ns0:PowerTransformerEnd>
+ <ns0:Terminal rdf:ID="_90b3f9a0-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T3_T2</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>2</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b3ab85-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b09e43-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:OperatingShare rdf:ID="_90b27302-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b24bf4-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:Terminal rdf:ID="_90b420b3-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln45_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b420b2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b0ec60-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:CurrentLimit rdf:ID="_90b55931-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>TrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b53225-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:Terminal rdf:ID="_90b58041-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln89_T2</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>2</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b55935-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b1d6c4-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:OperatingShare rdf:ID="_90b53221-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b53220-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:OperationalLimitSet rdf:ID="_90b4bcf3-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>57</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b4bcf0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b4bcf1-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:Line rdf:ID="_90b55933-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>89</ns0:IdentifiedObject.name>
+  <ns0:Line.Region rdf:resource="#_90b38472-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Line>
+ <ns0:SvVoltage rdf:ID="_90b09e42-8a32-11e5-b5f4-080027008896">
+  <ns0:SvVoltage.angle>9.279600143432617</ns0:SvVoltage.angle>
+  <ns0:SvVoltage.v>18.44999885559082</ns0:SvVoltage.v>
+  <ns0:SvVoltage.TopologicalNode rdf:resource="#_90b05021-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvVoltage>
+ <ns0:CurrentLimit rdf:ID="_90b447c1-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>WarningTrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b420b5-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:EnergyConsumer rdf:ID="_90b224e4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ld6</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b16194-8a32-11e5-b5f4-080027008896"/>
+  <ns0:EnergyConsumer.pfixed>90</ns0:EnergyConsumer.pfixed>
+  <ns0:EnergyConsumer.qfixed>30</ns0:EnergyConsumer.qfixed>
+  <ns0:EnergyConsumer.LoadResponse rdf:resource="#_90b24bf1-8a32-11e5-b5f4-080027008896"/>
+ </ns0:EnergyConsumer>
+ <ns0:CurrentLimit rdf:ID="_90b58043-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>WarningTrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b58042-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>376.53277587890625</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:BusNameMarker rdf:ID="_90b13a81-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>5</ns0:IdentifiedObject.name>
+ </ns0:BusNameMarker>
+ <ns0:Terminal rdf:ID="_90b38474-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T2_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b38470-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b05021-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:BusbarSection rdf:ID="_90b0ec62-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS4</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b11370-8a32-11e5-b5f4-080027008896"/>
+ </ns0:BusbarSection>
+ <ns0:Terminal rdf:ID="_90b46ed4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln46_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b46ed3-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b0ec60-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:OperatingShare rdf:ID="_90b1d6c2-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b13a83-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b1afb3-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:Terminal rdf:ID="_90b02910-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS1_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:ACDCTerminal.BusNameMarker rdf:resource="#_90b02911-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b00203-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b00201-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:TopologicalNode rdf:ID="_90b1afb2-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>8</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>BUS8</ns0:IdentifiedObject.name>
+  <ns0:TopologicalNode.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_90b1d6c1-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.SvVoltage rdf:resource="#_90b1d6c3-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.TopologicalIsland rdf:resource="#_90b00200-8a32-11e5-b5f4-080027008896"/>
+ </ns0:TopologicalNode>
+ <ns0:ControlArea rdf:ID="_90b2e833-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>2</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>AREA2</ns0:IdentifiedObject.name>
+  <ns0:ControlArea.netInterchange>50</ns0:ControlArea.netInterchange>
+  <ns0:ControlArea.pTolerance>10</ns0:ControlArea.pTolerance>
+  <ns0:ControlArea.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#ControlAreaTypeKind.AGC"/>
+  <ns0:ControlArea.EnergyArea rdf:resource="#_90b2e834-8a32-11e5-b5f4-080027008896"/>
+ </ns0:ControlArea>
+ <ns0:OperationalLimitType rdf:ID="_90b447c2-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Emergency</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitType.acceptableDuration>0</ns0:OperationalLimitType.acceptableDuration>
+  <ns0:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#OperationalLimitDirectionKind.high"/>
+ </ns0:OperationalLimitType>
+ <ns0:BusbarSection rdf:ID="_90b07730-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS2</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b09e40-8a32-11e5-b5f4-080027008896"/>
+ </ns0:BusbarSection>
+ <ns0:Terminal rdf:ID="_90b3ab82-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T2_T2</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>2</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b38470-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b188a1-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:VoltageLevel rdf:ID="_90b1fdd2-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS9230.0KV</ns0:IdentifiedObject.name>
+  <ns0:VoltageLevel.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:VoltageLevel.Substation rdf:resource="#_90b3d290-8a32-11e5-b5f4-080027008896"/>
+ </ns0:VoltageLevel>
+ <ns0:ControlAreaGeneratingUnit rdf:ID="_90b33651-8a32-11e5-b5f4-080027008896">
+  <ns0:ControlAreaGeneratingUnit.ControlArea rdf:resource="#_90b2e833-8a32-11e5-b5f4-080027008896"/>
+  <ns0:ControlAreaGeneratingUnit.GeneratingUnit rdf:resource="#_90b30f40-8a32-11e5-b5f4-080027008896"/>
+ </ns0:ControlAreaGeneratingUnit>
+ <ns0:OperatingShare rdf:ID="_90b09e41-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b07730-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:TopologicalNode rdf:ID="_90b09e43-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>3</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>BUS3</ns0:IdentifiedObject.name>
+  <ns0:TopologicalNode.BaseVoltage rdf:resource="#_90b09e44-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_90b0c553-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.SvVoltage rdf:resource="#_90b0c555-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.TopologicalIsland rdf:resource="#_90b00200-8a32-11e5-b5f4-080027008896"/>
+ </ns0:TopologicalNode>
+ <ns0:Terminal rdf:ID="_90b24bf5-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ld8_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b24bf4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.SvPowerFlow rdf:resource="#_90b27301-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b1afb2-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:Line rdf:ID="_90b53220-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>78</ns0:IdentifiedObject.name>
+  <ns0:Line.Region rdf:resource="#_90b38472-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Line>
+ <ns0:Terminal rdf:ID="_90b4e404-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln69_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b4e403-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b16190-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:BusbarSection rdf:ID="_90b1d6c5-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS9</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b1fdd2-8a32-11e5-b5f4-080027008896"/>
+ </ns0:BusbarSection>
+ <ns0:OperatingParticipant rdf:ID="_90b13a83-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>2</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>OWNER2</ns0:IdentifiedObject.name>
+ </ns0:OperatingParticipant>
+ <ns0:Terminal rdf:ID="_90b35d60-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T1_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b33652-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b00201-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:OperatingShare rdf:ID="_90b420b1-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b420b0-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:Terminal rdf:ID="_90b50b10-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln69_T2</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>2</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b4e403-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b1d6c4-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:CurrentLimit rdf:ID="_90b4bcf4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>WarningTrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b4bcf3-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:RatioTapChanger rdf:ID="_6717e640-8ec1-11e5-9959-080027008896">
+  <ns0:TapChanger.ltcFlag>true</ns0:TapChanger.ltcFlag>
+  <ns0:TapChanger.step>1</ns0:TapChanger.step>
+  <ns0:RatioTapChanger.TransformerEnd rdf:resource="#_90b33655-8a32-11e5-b5f4-080027008896"/>
+ </ns0:RatioTapChanger>
+ <ns0:VoltageLevel rdf:ID="_90b188a5-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS2230.0KV</ns0:IdentifiedObject.name>
+  <ns0:VoltageLevel.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:VoltageLevel.Substation rdf:resource="#_90b38471-8a32-11e5-b5f4-080027008896"/>
+ </ns0:VoltageLevel>
+ <ns0:CurrentLimit rdf:ID="_90b447c3-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>TrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b420b5-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:SubGeographicalRegion rdf:ID="_90b33654-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>1</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>AREA1</ns0:IdentifiedObject.name>
+  <ns0:SubGeographicalRegion.Region rdf:resource="#_49CDF5FCC5AA6C5EC433B17C54E60B66"/>
+ </ns0:SubGeographicalRegion>
+ <ns0:LoadResponseCharacteristic rdf:ID="_90b224e1-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>L5</ns0:IdentifiedObject.name>
+  <ns0:LoadResponseCharacteristic.exponentModel>false</ns0:LoadResponseCharacteristic.exponentModel>
+  <ns0:LoadResponseCharacteristic.pConstantCurrent>0</ns0:LoadResponseCharacteristic.pConstantCurrent>
+  <ns0:LoadResponseCharacteristic.pConstantImpedance>0</ns0:LoadResponseCharacteristic.pConstantImpedance>
+  <ns0:LoadResponseCharacteristic.pConstantPower>1</ns0:LoadResponseCharacteristic.pConstantPower>
+  <ns0:LoadResponseCharacteristic.qConstantCurrent>0</ns0:LoadResponseCharacteristic.qConstantCurrent>
+  <ns0:LoadResponseCharacteristic.qConstantImpedance>0</ns0:LoadResponseCharacteristic.qConstantImpedance>
+  <ns0:LoadResponseCharacteristic.qConstantPower>1</ns0:LoadResponseCharacteristic.qConstantPower>
+ </ns0:LoadResponseCharacteristic>
+ <ns0:OperatingShare rdf:ID="_90b3ab84-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b38470-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:ACLineSegment rdf:ID="_90b55935-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln89</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b55933-8a32-11e5-b5f4-080027008896"/>
+  <ns0:ConductingEquipment.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Conductor.length>220</ns0:Conductor.length>
+  <ns0:ACLineSegment.bch>0.10450000315904617</ns0:ACLineSegment.bch>
+  <ns0:ACLineSegment.gch>0</ns0:ACLineSegment.gch>
+  <ns0:ACLineSegment.r>0.011900000274181366</ns0:ACLineSegment.r>
+  <ns0:ACLineSegment.x>0.10080000013113022</ns0:ACLineSegment.x>
+ </ns0:ACLineSegment>
+ <ns0:BusbarSection rdf:ID="_90b00203-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS1</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b02912-8a32-11e5-b5f4-080027008896"/>
+ </ns0:BusbarSection>
+ <ns0:Terminal rdf:ID="_90b3d292-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T3_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b3ab85-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b1d6c4-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:LoadArea rdf:ID="_90b2e834-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>AREA2</ns0:IdentifiedObject.name>
+  <ns0:EnergyArea.ControlArea rdf:resource="#_90b2e833-8a32-11e5-b5f4-080027008896"/>
+ </ns0:LoadArea>
+ <ns0:OperatingShare rdf:ID="_90b02914-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b00203-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:Terminal rdf:ID="_90b30f42-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Gn3_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b30f41-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.SvPowerFlow rdf:resource="#_90b30f43-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b09e43-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:SvPowerFlow rdf:ID="_90b30f43-8a32-11e5-b5f4-080027008896">
+  <ns0:SvPowerFlow.p>-85</ns0:SvPowerFlow.p>
+  <ns0:SvPowerFlow.q>10.859000205993652</ns0:SvPowerFlow.q>
+  <ns0:SvPowerFlow.Terminal rdf:resource="#_90b30f42-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvPowerFlow>
+ <ns0:Terminal rdf:ID="_90b29a10-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Gn1_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b27304-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.SvPowerFlow rdf:resource="#_90b29a11-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b00201-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:SynchronousMachine rdf:ID="_90b27304-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Gn1</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b02912-8a32-11e5-b5f4-080027008896"/>
+  <ns0:RegulatingCondEq.RegulatingControl rdf:resource="#_90b29a12-8a32-11e5-b5f4-080027008896"/>
+  <ns0:RotatingMachine.ratedS>275</ns0:RotatingMachine.ratedS>
+  <ns0:RotatingMachine.GeneratingUnit rdf:resource="#_90b27303-8a32-11e5-b5f4-080027008896"/>
+  <ns0:SynchronousMachine.baseQ>27.048999786376953</ns0:SynchronousMachine.baseQ>
+  <ns0:SynchronousMachine.maxQ>250</ns0:SynchronousMachine.maxQ>
+  <ns0:SynchronousMachine.minQ>-250</ns0:SynchronousMachine.minQ>
+  <ns0:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+  <ns0:SynchronousMachine.qPercent>100</ns0:SynchronousMachine.qPercent>
+  <ns0:SynchronousMachine.r>0.00027225000667385757</ns0:SynchronousMachine.r>
+  <ns0:SynchronousMachine.referencePriority>1</ns0:SynchronousMachine.referencePriority>
+  <ns0:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineKind.generator"/>
+  <ns0:SynchronousMachine.x0>0.05999999865889549</ns0:SynchronousMachine.x0>
+  <ns0:SynchronousMachine.SynchronousMachineDynamics rdf:resource="#_02c873a0-9e7d-11e5-a1af-080027008896"/>
+ </ns0:SynchronousMachine>
+ <ns0:Substation rdf:ID="_90b3f9a4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS6</ns0:IdentifiedObject.name>
+  <ns0:Substation.Region rdf:resource="#_90b33654-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Substation>
+ <ns0:RatioTapChanger rdf:ID="_e790ce00-8ec0-11e5-9959-080027008896">
+  <ns0:TapChanger.ltcFlag>true</ns0:TapChanger.ltcFlag>
+  <ns0:TapChanger.step>1</ns0:TapChanger.step>
+  <ns0:RatioTapChanger.TransformerEnd rdf:resource="#_90b38473-8a32-11e5-b5f4-080027008896"/>
+ </ns0:RatioTapChanger>
+ <ns0:Terminal rdf:ID="_90b24bf0-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ld6_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b224e4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.SvPowerFlow rdf:resource="#_90b24bf2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b16190-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:ACLineSegment rdf:ID="_90b420b2-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln45</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b420b0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:ConductingEquipment.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Conductor.length>110</ns0:Conductor.length>
+  <ns0:ACLineSegment.bch>0.08799999952316284</ns0:ACLineSegment.bch>
+  <ns0:ACLineSegment.gch>0</ns0:ACLineSegment.gch>
+  <ns0:ACLineSegment.r>0.009999999776482582</ns0:ACLineSegment.r>
+  <ns0:ACLineSegment.x>0.08500000089406967</ns0:ACLineSegment.x>
+ </ns0:ACLineSegment>
+ <ns0:PowerTransformerEnd rdf:ID="_90b35d62-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T1 TWT1 Secondary</ns0:IdentifiedObject.name>
+  <ns0:TransformerEnd.endNumber>2</ns0:TransformerEnd.endNumber>
+  <ns0:TransformerEnd.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TransformerEnd.RatioTapChanger rdf:resource="#_5e31ea30-8ec1-11e5-9959-080027008896"/>
+  <ns0:TransformerEnd.Terminal rdf:resource="#_90b35d63-8a32-11e5-b5f4-080027008896"/>
+  <ns0:PowerTransformerEnd.b>0</ns0:PowerTransformerEnd.b>
+  <ns0:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+  <ns0:PowerTransformerEnd.g>0</ns0:PowerTransformerEnd.g>
+  <ns0:PowerTransformerEnd.r>0</ns0:PowerTransformerEnd.r>
+  <ns0:PowerTransformerEnd.ratedS>0</ns0:PowerTransformerEnd.ratedS>
+  <ns0:PowerTransformerEnd.ratedU>230</ns0:PowerTransformerEnd.ratedU>
+  <ns0:PowerTransformerEnd.x>0.05860000103712082</ns0:PowerTransformerEnd.x>
+  <ns0:PowerTransformerEnd.PowerTransformer rdf:resource="#_90b33652-8a32-11e5-b5f4-080027008896"/>
+ </ns0:PowerTransformerEnd>
+ <ns0:CurrentLimit rdf:ID="_90b55930-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>WarningTrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b53225-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:VoltageLevel rdf:ID="_90b16194-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS6230.0KV</ns0:IdentifiedObject.name>
+  <ns0:VoltageLevel.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:VoltageLevel.Substation rdf:resource="#_90b3f9a4-8a32-11e5-b5f4-080027008896"/>
+ </ns0:VoltageLevel>
+ <ns0:BusNameMarker rdf:ID="_90b16193-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>6</ns0:IdentifiedObject.name>
+ </ns0:BusNameMarker>
+ <ns0:Terminal rdf:ID="_90b420b4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln45_T2</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>2</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b420b2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b11373-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:OperationalLimitType rdf:ID="_90b447c4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Normal</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitType.acceptableDuration>0</ns0:OperationalLimitType.acceptableDuration>
+  <ns0:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#OperationalLimitDirectionKind.high"/>
+ </ns0:OperationalLimitType>
+ <ns0:BusbarSection rdf:ID="_90b11374-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS5</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b13a82-8a32-11e5-b5f4-080027008896"/>
+ </ns0:BusbarSection>
+ <ns0:VoltageLevel rdf:ID="_90b09e40-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS218.0KV</ns0:IdentifiedObject.name>
+  <ns0:VoltageLevel.BaseVoltage rdf:resource="#_90b05022-8a32-11e5-b5f4-080027008896"/>
+  <ns0:VoltageLevel.Substation rdf:resource="#_90b38471-8a32-11e5-b5f4-080027008896"/>
+ </ns0:VoltageLevel>
+ <ns0:VoltageLevel rdf:ID="_90b0c553-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS913.8KV</ns0:IdentifiedObject.name>
+  <ns0:VoltageLevel.BaseVoltage rdf:resource="#_90b09e44-8a32-11e5-b5f4-080027008896"/>
+  <ns0:VoltageLevel.Substation rdf:resource="#_90b3d290-8a32-11e5-b5f4-080027008896"/>
+ </ns0:VoltageLevel>
+ <ns0:ACLineSegment rdf:ID="_90b46ed3-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln46</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b46ed1-8a32-11e5-b5f4-080027008896"/>
+  <ns0:ConductingEquipment.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Conductor.length>110</ns0:Conductor.length>
+  <ns0:ACLineSegment.bch>0.07900000363588333</ns0:ACLineSegment.bch>
+  <ns0:ACLineSegment.gch>0</ns0:ACLineSegment.gch>
+  <ns0:ACLineSegment.r>0.017000000923871994</ns0:ACLineSegment.r>
+  <ns0:ACLineSegment.x>0.09200000017881393</ns0:ACLineSegment.x>
+ </ns0:ACLineSegment>
+ <ns0:OperationalLimitType rdf:ID="_90b447c0-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>ShortTerm</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitType.acceptableDuration>0</ns0:OperationalLimitType.acceptableDuration>
+  <ns0:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#OperationalLimitDirectionKind.high"/>
+ </ns0:OperationalLimitType>
+ <ns0:GeneratingUnit rdf:ID="_90b30f40-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>G3</ns0:IdentifiedObject.name>
+  <ns0:GeneratingUnit.baseP>100</ns0:GeneratingUnit.baseP>
+  <ns0:GeneratingUnit.initialP>85</ns0:GeneratingUnit.initialP>
+  <ns0:GeneratingUnit.maxOperatingP>270</ns0:GeneratingUnit.maxOperatingP>
+  <ns0:GeneratingUnit.minOperatingP>30</ns0:GeneratingUnit.minOperatingP>
+  <ns0:GeneratingUnit.nominalP>85</ns0:GeneratingUnit.nominalP>
+  <ns0:GeneratingUnit.normalPF>0</ns0:GeneratingUnit.normalPF>
+ </ns0:GeneratingUnit>
+ <ns0:Line rdf:ID="_90b46ed1-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>46</ns0:IdentifiedObject.name>
+  <ns0:Line.Region rdf:resource="#_90b33654-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Line>
+ <ns0:CurrentLimit rdf:ID="_90b50b14-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Alarm</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b50b11-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>376.53277587890625</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:SvPowerFlow rdf:ID="_90b2c125-8a32-11e5-b5f4-080027008896">
+  <ns0:SvPowerFlow.p>-163</ns0:SvPowerFlow.p>
+  <ns0:SvPowerFlow.q>-6.65500020980835</ns0:SvPowerFlow.q>
+  <ns0:SvPowerFlow.Terminal rdf:resource="#_90b2c124-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvPowerFlow>
+ <ns0:Terminal rdf:ID="_90b4bcf2-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln57_T2</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>2</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b4bcf0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b188a1-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:OperatingShare rdf:ID="_90b55934-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b55933-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:OperationalLimitSet rdf:ID="_90b3ab83-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T2 TWT2 Secondary Limits</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b38470-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b3ab82-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:BaseVoltage rdf:ID="_90b0ec61-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>230.0KV</ns0:IdentifiedObject.name>
+  <ns0:BaseVoltage.nominalVoltage>230</ns0:BaseVoltage.nominalVoltage>
+ </ns0:BaseVoltage>
+ <ns0:OperationalLimitSet rdf:ID="_90b3d293-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T3 TWT3 Primary Limits</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b3ab85-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b3d292-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:CurrentLimit rdf:ID="_90b50b13-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>TrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b50b11-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>376.53277587890625</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:OperationalLimitSet rdf:ID="_90b53225-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>78</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b53222-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b53223-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:LoadResponseCharacteristic rdf:ID="_90b24bf1-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>L6</ns0:IdentifiedObject.name>
+  <ns0:LoadResponseCharacteristic.exponentModel>false</ns0:LoadResponseCharacteristic.exponentModel>
+  <ns0:LoadResponseCharacteristic.pConstantCurrent>0</ns0:LoadResponseCharacteristic.pConstantCurrent>
+  <ns0:LoadResponseCharacteristic.pConstantImpedance>0</ns0:LoadResponseCharacteristic.pConstantImpedance>
+  <ns0:LoadResponseCharacteristic.pConstantPower>1</ns0:LoadResponseCharacteristic.pConstantPower>
+  <ns0:LoadResponseCharacteristic.qConstantCurrent>0</ns0:LoadResponseCharacteristic.qConstantCurrent>
+  <ns0:LoadResponseCharacteristic.qConstantImpedance>0</ns0:LoadResponseCharacteristic.qConstantImpedance>
+  <ns0:LoadResponseCharacteristic.qConstantPower>1</ns0:LoadResponseCharacteristic.qConstantPower>
+ </ns0:LoadResponseCharacteristic>
+ <ns0:PowerTransformer rdf:ID="_90b33652-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T1</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b33653-8a32-11e5-b5f4-080027008896"/>
+ </ns0:PowerTransformer>
+ <ns0:SvPowerFlow rdf:ID="_90b24bf2-8a32-11e5-b5f4-080027008896">
+  <ns0:SvPowerFlow.p>90</ns0:SvPowerFlow.p>
+  <ns0:SvPowerFlow.q>30</ns0:SvPowerFlow.q>
+  <ns0:SvPowerFlow.Terminal rdf:resource="#_90b24bf0-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvPowerFlow>
+ <ns0:SynchronousMachine rdf:ID="_90b30f41-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Gn3</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b0c553-8a32-11e5-b5f4-080027008896"/>
+  <ns0:RegulatingCondEq.RegulatingControl rdf:resource="#_90b30f44-8a32-11e5-b5f4-080027008896"/>
+  <ns0:RotatingMachine.ratedS>300</ns0:RotatingMachine.ratedS>
+  <ns0:RotatingMachine.GeneratingUnit rdf:resource="#_90b30f40-8a32-11e5-b5f4-080027008896"/>
+  <ns0:SynchronousMachine.baseQ>-10.859000205993652</ns0:SynchronousMachine.baseQ>
+  <ns0:SynchronousMachine.maxQ>85</ns0:SynchronousMachine.maxQ>
+  <ns0:SynchronousMachine.minQ>-85</ns0:SynchronousMachine.minQ>
+  <ns0:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+  <ns0:SynchronousMachine.qPercent>100</ns0:SynchronousMachine.qPercent>
+  <ns0:SynchronousMachine.r>0.0001904399978229776</ns0:SynchronousMachine.r>
+  <ns0:SynchronousMachine.referencePriority>0</ns0:SynchronousMachine.referencePriority>
+  <ns0:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineKind.generator"/>
+  <ns0:SynchronousMachine.SynchronousMachineDynamics rdf:resource="#_08716d20-9e7d-11e5-a1af-080027008896"/>
+ </ns0:SynchronousMachine>
+ <ns0:SvPowerFlow rdf:ID="_90b29a11-8a32-11e5-b5f4-080027008896">
+  <ns0:SvPowerFlow.p>-71.66100311279297</ns0:SvPowerFlow.p>
+  <ns0:SvPowerFlow.q>-27.048999786376953</ns0:SvPowerFlow.q>
+  <ns0:SvPowerFlow.Terminal rdf:resource="#_90b29a10-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvPowerFlow>
+ <ns0:RatioTapChanger rdf:ID="_72a77e80-8ec1-11e5-9959-080027008896">
+  <ns0:TapChanger.ltcFlag>true</ns0:TapChanger.ltcFlag>
+  <ns0:TapChanger.step>1</ns0:TapChanger.step>
+  <ns0:RatioTapChanger.TransformerEnd rdf:resource="#_90b3d291-8a32-11e5-b5f4-080027008896"/>
+ </ns0:RatioTapChanger>
+ <ns0:CurrentLimit rdf:ID="_90b46ed0-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Alarm</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b420b5-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:Terminal rdf:ID="_90b35d63-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T1_T2</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>2</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b33652-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b0ec60-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:OperatingParticipant rdf:ID="_90b02913-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>1</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>OWNER1</ns0:IdentifiedObject.name>
+ </ns0:OperatingParticipant>
+ <ns0:CurrentLimit rdf:ID="_90b55932-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Alarm</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b53225-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:OperatingShare rdf:ID="_90b11371-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b0ec62-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:OperatingShare rdf:ID="_90b224e3-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b1fdd5-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:OperatingShare rdf:ID="_90b29a13-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b27303-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:EnergyConsumer rdf:ID="_90b1fdd5-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ld5</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b13a82-8a32-11e5-b5f4-080027008896"/>
+  <ns0:EnergyConsumer.pfixed>125</ns0:EnergyConsumer.pfixed>
+  <ns0:EnergyConsumer.qfixed>50</ns0:EnergyConsumer.qfixed>
+  <ns0:EnergyConsumer.LoadResponse rdf:resource="#_90b224e1-8a32-11e5-b5f4-080027008896"/>
+ </ns0:EnergyConsumer>
+ <ns0:PowerTransformerEnd rdf:ID="_90b38473-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T2 TWT2 Primary</ns0:IdentifiedObject.name>
+  <ns0:TransformerEnd.endNumber>1</ns0:TransformerEnd.endNumber>
+  <ns0:TransformerEnd.BaseVoltage rdf:resource="#_90b05022-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TransformerEnd.RatioTapChanger rdf:resource="#_e790ce00-8ec0-11e5-9959-080027008896"/>
+  <ns0:TransformerEnd.Terminal rdf:resource="#_90b38474-8a32-11e5-b5f4-080027008896"/>
+  <ns0:PowerTransformerEnd.b>0</ns0:PowerTransformerEnd.b>
+  <ns0:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+  <ns0:PowerTransformerEnd.g>0</ns0:PowerTransformerEnd.g>
+  <ns0:PowerTransformerEnd.r>0</ns0:PowerTransformerEnd.r>
+  <ns0:PowerTransformerEnd.ratedS>0</ns0:PowerTransformerEnd.ratedS>
+  <ns0:PowerTransformerEnd.ratedU>18</ns0:PowerTransformerEnd.ratedU>
+  <ns0:PowerTransformerEnd.x>0.0575999990105629</ns0:PowerTransformerEnd.x>
+  <ns0:PowerTransformerEnd.PowerTransformer rdf:resource="#_90b38470-8a32-11e5-b5f4-080027008896"/>
+ </ns0:PowerTransformerEnd>
+ <ns0:OperatingShare rdf:ID="_90b2e831-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b2c122-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:OperatingShare rdf:ID="_90b3f9a2-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b3ab85-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:Substation rdf:ID="_90b3d290-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS9</ns0:IdentifiedObject.name>
+  <ns0:Substation.Region rdf:resource="#_90b38472-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Substation>
+ <ns0:TopologicalNode rdf:ID="_90b16190-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>6</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>BUS6</ns0:IdentifiedObject.name>
+  <ns0:TopologicalNode.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_90b16194-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.SvVoltage rdf:resource="#_90b188a0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.TopologicalIsland rdf:resource="#_90b00200-8a32-11e5-b5f4-080027008896"/>
+ </ns0:TopologicalNode>
+ <ns0:OperationalLimitSet rdf:ID="_90b3f9a1-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T3 TWT3 Secondary Limits</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b3ab85-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b3f9a0-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:Terminal rdf:ID="_90b46ed5-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln46_T2</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>2</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b46ed3-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b16190-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:VoltageLevel rdf:ID="_90b1d6c1-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS8230.0KV</ns0:IdentifiedObject.name>
+  <ns0:VoltageLevel.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:VoltageLevel.Substation rdf:resource="#_90b3f9a5-8a32-11e5-b5f4-080027008896"/>
+ </ns0:VoltageLevel>
+ <ns0:BusNameMarker rdf:ID="_90b188a4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>7</ns0:IdentifiedObject.name>
+ </ns0:BusNameMarker>
+ <ns0:Terminal rdf:ID="_90b1fdd0-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS9_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:ACDCTerminal.BusNameMarker rdf:resource="#_90b1fdd1-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b1d6c5-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b1d6c4-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:VoltageLevel rdf:ID="_90b11370-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS1230.0KV</ns0:IdentifiedObject.name>
+  <ns0:VoltageLevel.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:VoltageLevel.Substation rdf:resource="#_90b33653-8a32-11e5-b5f4-080027008896"/>
+ </ns0:VoltageLevel>
+ <ns0:GeographicalRegion rdf:ID="_49CDF5FCC5AA6C5EC433B17C54E60B66">
+  <ns0:IdentifiedObject.name>ES</ns0:IdentifiedObject.name>
+ </ns0:GeographicalRegion>
+ <ns0:Line rdf:ID="_90b420b0-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>45</ns0:IdentifiedObject.name>
+  <ns0:Line.Region rdf:resource="#_90b33654-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Line>
+ <ns0:SubGeographicalRegion rdf:ID="_90b38472-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>2</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>AREA2</ns0:IdentifiedObject.name>
+  <ns0:SubGeographicalRegion.Region rdf:resource="#_49CDF5FCC5AA6C5EC433B17C54E60B66"/>
+ </ns0:SubGeographicalRegion>
+ <ns0:SvVoltage rdf:ID="_90b1afb1-8a32-11e5-b5f4-080027008896">
+  <ns0:SvVoltage.angle>3.7191998958587646</ns0:SvVoltage.angle>
+  <ns0:SvVoltage.v>235.92709350585938</ns0:SvVoltage.v>
+  <ns0:SvVoltage.TopologicalNode rdf:resource="#_90b188a1-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvVoltage>
+ <ns0:OperatingShare rdf:ID="_90b33650-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b30f40-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:PowerTransformer rdf:ID="_90b3ab85-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T3</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b3d290-8a32-11e5-b5f4-080027008896"/>
+ </ns0:PowerTransformer>
+ <ns0:Line rdf:ID="_90b4e401-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>69</ns0:IdentifiedObject.name>
+  <ns0:Line.Region rdf:resource="#_90b33654-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Line>
+ <ns0:BusbarSection rdf:ID="_90b1afb3-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS8</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b1d6c1-8a32-11e5-b5f4-080027008896"/>
+ </ns0:BusbarSection>
+ <ns0:ControlAreaGeneratingUnit rdf:ID="_90b29a14-8a32-11e5-b5f4-080027008896">
+  <ns0:ControlAreaGeneratingUnit.ControlArea rdf:resource="#_90b2c120-8a32-11e5-b5f4-080027008896"/>
+  <ns0:ControlAreaGeneratingUnit.GeneratingUnit rdf:resource="#_90b27303-8a32-11e5-b5f4-080027008896"/>
+ </ns0:ControlAreaGeneratingUnit>
+ <ns0:BusbarSection rdf:ID="_90b188a2-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS7</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b188a5-8a32-11e5-b5f4-080027008896"/>
+ </ns0:BusbarSection>
+ <ns0:ACLineSegment rdf:ID="_90b4bcf0-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln57</ns0:IdentifiedObject.name>
+  <ns0:Equipment.EquipmentContainer rdf:resource="#_90b495e4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:ConductingEquipment.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Conductor.length>150</ns0:Conductor.length>
+  <ns0:ACLineSegment.bch>0.15299999713897705</ns0:ACLineSegment.bch>
+  <ns0:ACLineSegment.gch>0</ns0:ACLineSegment.gch>
+  <ns0:ACLineSegment.r>0.03200000151991844</ns0:ACLineSegment.r>
+  <ns0:ACLineSegment.x>0.16099999845027924</ns0:ACLineSegment.x>
+ </ns0:ACLineSegment>
+ <ns0:CurrentLimit rdf:ID="_90b495e3-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Alarm</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b495e0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:OperatingShare rdf:ID="_90b1fdd3-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b1d6c5-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:SvVoltage rdf:ID="_90b11372-8a32-11e5-b5f4-080027008896">
+  <ns0:SvVoltage.angle>-2.217400074005127</ns0:SvVoltage.angle>
+  <ns0:SvVoltage.v>235.93170166015625</ns0:SvVoltage.v>
+  <ns0:SvVoltage.TopologicalNode rdf:resource="#_90b0ec60-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvVoltage>
+ <ns0:OperationalLimitSet rdf:ID="_90b35d64-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T1 TWT1 Secondary Limits</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b33652-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b35d63-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:Terminal rdf:ID="_90b1afb4-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS8_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:ACDCTerminal.BusNameMarker rdf:resource="#_90b1d6c0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b1afb3-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b1afb2-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:ControlArea rdf:ID="_90b2c120-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>1</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>AREA1</ns0:IdentifiedObject.name>
+  <ns0:ControlArea.netInterchange>50</ns0:ControlArea.netInterchange>
+  <ns0:ControlArea.pTolerance>10</ns0:ControlArea.pTolerance>
+  <ns0:ControlArea.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#ControlAreaTypeKind.AGC"/>
+  <ns0:ControlArea.EnergyArea rdf:resource="#_90b2c121-8a32-11e5-b5f4-080027008896"/>
+ </ns0:ControlArea>
+ <ns0:LoadArea rdf:ID="_90b2c121-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>AREA1</ns0:IdentifiedObject.name>
+  <ns0:EnergyArea.ControlArea rdf:resource="#_90b2c120-8a32-11e5-b5f4-080027008896"/>
+ </ns0:LoadArea>
+ <ns0:OperatingShare rdf:ID="_90b24bf3-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b02913-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b224e4-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:RatioTapChanger rdf:ID="_7acd5ee0-8ec1-11e5-9959-080027008896">
+  <ns0:TapChanger.ltcFlag>false</ns0:TapChanger.ltcFlag>
+  <ns0:TapChanger.step>1</ns0:TapChanger.step>
+  <ns0:RatioTapChanger.TransformerEnd rdf:resource="#_90b3d294-8a32-11e5-b5f4-080027008896"/>
+ </ns0:RatioTapChanger>
+ <ns0:CurrentLimit rdf:ID="_90b58045-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Alarm</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b58042-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c4-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>376.53277587890625</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:TopologicalNode rdf:ID="_90b188a1-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.aliasName>7</ns0:IdentifiedObject.aliasName>
+  <ns0:IdentifiedObject.name>BUS7</ns0:IdentifiedObject.name>
+  <ns0:TopologicalNode.BaseVoltage rdf:resource="#_90b0ec61-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_90b188a5-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.SvVoltage rdf:resource="#_90b1afb1-8a32-11e5-b5f4-080027008896"/>
+  <ns0:TopologicalNode.TopologicalIsland rdf:resource="#_90b00200-8a32-11e5-b5f4-080027008896"/>
+ </ns0:TopologicalNode>
+ <ns0:SynchronousMachineTimeConstantReactance rdf:ID="_08716d20-9e7d-11e5-a1af-080027008896">
+  <ns0:RotatingMachineDynamics.damping>0.4699999988079071</ns0:RotatingMachineDynamics.damping>
+  <ns0:RotatingMachineDynamics.inertia>2.3499999046325684</ns0:RotatingMachineDynamics.inertia>
+  <ns0:RotatingMachineDynamics.saturationFactor>1.0099999904632568</ns0:RotatingMachineDynamics.saturationFactor>
+  <ns0:RotatingMachineDynamics.saturationFactor120>1.0199999809265137</ns0:RotatingMachineDynamics.saturationFactor120>
+  <ns0:RotatingMachineDynamics.statorLeakageReactance>0.15360000729560852</ns0:RotatingMachineDynamics.statorLeakageReactance>
+  <ns0:SynchronousMachineDynamics.SynchronousMachine rdf:resource="#_90b30f41-8a32-11e5-b5f4-080027008896"/>
+  <ns0:SynchronousMachineTimeConstantReactance.rotorType rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RotorKind.roundRotor"/>
+  <ns0:SynchronousMachineTimeConstantReactance.tpdo>5.889999866485596</ns0:SynchronousMachineTimeConstantReactance.tpdo>
+  <ns0:SynchronousMachineTimeConstantReactance.tppdo>0.05000000074505806</ns0:SynchronousMachineTimeConstantReactance.tppdo>
+  <ns0:SynchronousMachineTimeConstantReactance.tppqo>0.05000000074505806</ns0:SynchronousMachineTimeConstantReactance.tppqo>
+  <ns0:SynchronousMachineTimeConstantReactance.tpqo>0.6000000238418579</ns0:SynchronousMachineTimeConstantReactance.tpqo>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectSubtrans>0.20999999344348907</ns0:SynchronousMachineTimeConstantReactance.xDirectSubtrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectSync>1.6799999475479126</ns0:SynchronousMachineTimeConstantReactance.xDirectSync>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectTrans>0.2320999950170517</ns0:SynchronousMachineTimeConstantReactance.xDirectTrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadSubtrans>0</ns0:SynchronousMachineTimeConstantReactance.xQuadSubtrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadSync>1.6100000143051147</ns0:SynchronousMachineTimeConstantReactance.xQuadSync>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadTrans>0.3199999928474426</ns0:SynchronousMachineTimeConstantReactance.xQuadTrans>
+ </ns0:SynchronousMachineTimeConstantReactance>
+ <ns0:SynchronousMachineTimeConstantReactance rdf:ID="_02c873a0-9e7d-11e5-a1af-080027008896">
+  <ns0:RotatingMachineDynamics.damping>1.600000023841858</ns0:RotatingMachineDynamics.damping>
+  <ns0:RotatingMachineDynamics.inertia>9.550000190734863</ns0:RotatingMachineDynamics.inertia>
+  <ns0:RotatingMachineDynamics.saturationFactor>1.0099999904632568</ns0:RotatingMachineDynamics.saturationFactor>
+  <ns0:RotatingMachineDynamics.saturationFactor120>1.0199999809265137</ns0:RotatingMachineDynamics.saturationFactor120>
+  <ns0:RotatingMachineDynamics.statorLeakageReactance>0.05999999865889549</ns0:RotatingMachineDynamics.statorLeakageReactance>
+  <ns0:SynchronousMachineDynamics.ExcitationSystemDynamics rdf:resource="#_ee8ff540-c5c1-11e5-9f0a-080027008896"/>
+  <ns0:SynchronousMachineDynamics.SynchronousMachine rdf:resource="#_90b27304-8a32-11e5-b5f4-080027008896"/>
+  <ns0:SynchronousMachineTimeConstantReactance.rotorType rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RotorKind.salientPole"/>
+  <ns0:SynchronousMachineTimeConstantReactance.tpdo>8.960000038146973</ns0:SynchronousMachineTimeConstantReactance.tpdo>
+  <ns0:SynchronousMachineTimeConstantReactance.tppdo>0.05000000074505806</ns0:SynchronousMachineTimeConstantReactance.tppdo>
+  <ns0:SynchronousMachineTimeConstantReactance.tppqo>0.05000000074505806</ns0:SynchronousMachineTimeConstantReactance.tppqo>
+  <ns0:SynchronousMachineTimeConstantReactance.tpqo>0</ns0:SynchronousMachineTimeConstantReactance.tpqo>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectSubtrans>0.10000000149011612</ns0:SynchronousMachineTimeConstantReactance.xDirectSubtrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectSync>0.36149999499320984</ns0:SynchronousMachineTimeConstantReactance.xDirectSync>
+  <ns0:SynchronousMachineTimeConstantReactance.xDirectTrans>0.15080000460147858</ns0:SynchronousMachineTimeConstantReactance.xDirectTrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadSubtrans>0.10000000149011612</ns0:SynchronousMachineTimeConstantReactance.xQuadSubtrans>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadSync>0.23999999463558197</ns0:SynchronousMachineTimeConstantReactance.xQuadSync>
+  <ns0:SynchronousMachineTimeConstantReactance.xQuadTrans>0</ns0:SynchronousMachineTimeConstantReactance.xQuadTrans>
+ </ns0:SynchronousMachineTimeConstantReactance>
+ <ns0:OperationalLimitSet rdf:ID="_90b3ab80-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T2 TWT2 Primary Limits</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b38470-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b38474-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:RatioTapChanger rdf:ID="_5e31ea30-8ec1-11e5-9959-080027008896">
+  <ns0:TapChanger.ltcFlag>false</ns0:TapChanger.ltcFlag>
+  <ns0:TapChanger.step>1</ns0:TapChanger.step>
+  <ns0:RatioTapChanger.TransformerEnd rdf:resource="#_90b35d62-8a32-11e5-b5f4-080027008896"/>
+ </ns0:RatioTapChanger>
+ <ns0:Substation rdf:ID="_90b33653-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS1</ns0:IdentifiedObject.name>
+  <ns0:Substation.Region rdf:resource="#_90b33654-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Substation>
+ <ns0:RegulatingControl rdf:ID="_90b30f44-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>G3</ns0:IdentifiedObject.name>
+  <ns0:RegulatingControl.discrete>true</ns0:RegulatingControl.discrete>
+  <ns0:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
+  <ns0:RegulatingControl.targetDeadband>0</ns0:RegulatingControl.targetDeadband>
+  <ns0:RegulatingControl.targetValue>14.144999504089355</ns0:RegulatingControl.targetValue>
+  <ns0:RegulatingControl.Terminal rdf:resource="#_90b30f42-8a32-11e5-b5f4-080027008896"/>
+ </ns0:RegulatingControl>
+ <ns0:OperationalLimitSet rdf:ID="_90b495e0-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>46</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b46ed3-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b46ed4-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:Substation rdf:ID="_90b38471-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS2</ns0:IdentifiedObject.name>
+  <ns0:Substation.Region rdf:resource="#_90b38472-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Substation>
+ <ns0:OperationalLimitSet rdf:ID="_90b35d61-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>T1 TWT1 Primary Limits</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b33652-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b35d60-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:Terminal rdf:ID="_90b0ec63-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS4_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:ACDCTerminal.BusNameMarker rdf:resource="#_90b0ec64-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b0ec62-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b0ec60-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:Terminal rdf:ID="_90b07731-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS2_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:ACDCTerminal.BusNameMarker rdf:resource="#_90b07732-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b07730-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b05021-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:Terminal rdf:ID="_90b58040-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>Ln89_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b55935-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b1afb2-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:ControlAreaGeneratingUnit rdf:ID="_90b2e832-8a32-11e5-b5f4-080027008896">
+  <ns0:ControlAreaGeneratingUnit.ControlArea rdf:resource="#_90b2e833-8a32-11e5-b5f4-080027008896"/>
+  <ns0:ControlAreaGeneratingUnit.GeneratingUnit rdf:resource="#_90b2c122-8a32-11e5-b5f4-080027008896"/>
+ </ns0:ControlAreaGeneratingUnit>
+ <ns0:OperationalLimitSet rdf:ID="_90b50b11-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>69</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimitSet.Equipment rdf:resource="#_90b4e403-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimitSet.Terminal rdf:resource="#_90b4e404-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperationalLimitSet>
+ <ns0:CurrentLimit rdf:ID="_90b4bcf5-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>TrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b4bcf3-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:Terminal rdf:ID="_90b16192-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS6_T1</ns0:IdentifiedObject.name>
+  <ns0:ACDCTerminal.connected>true</ns0:ACDCTerminal.connected>
+  <ns0:ACDCTerminal.sequenceNumber>1</ns0:ACDCTerminal.sequenceNumber>
+  <ns0:ACDCTerminal.BusNameMarker rdf:resource="#_90b16193-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.ConductingEquipment rdf:resource="#_90b16191-8a32-11e5-b5f4-080027008896"/>
+  <ns0:Terminal.TopologicalNode rdf:resource="#_90b16190-8a32-11e5-b5f4-080027008896"/>
+ </ns0:Terminal>
+ <ns0:SvVoltage rdf:ID="_90b13a85-8a32-11e5-b5f4-080027008896">
+  <ns0:SvVoltage.angle>-3.9895999431610107</ns0:SvVoltage.angle>
+  <ns0:SvVoltage.v>228.99490356445312</ns0:SvVoltage.v>
+  <ns0:SvVoltage.TopologicalNode rdf:resource="#_90b11373-8a32-11e5-b5f4-080027008896"/>
+ </ns0:SvVoltage>
+ <ns0:BaseVoltage rdf:ID="_90b05022-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>18.0KV</ns0:IdentifiedObject.name>
+  <ns0:BaseVoltage.nominalVoltage>18</ns0:BaseVoltage.nominalVoltage>
+ </ns0:BaseVoltage>
+ <ns0:OperatingShare rdf:ID="_90b13a84-8a32-11e5-b5f4-080027008896">
+  <ns0:OperatingShare.percentage>100</ns0:OperatingShare.percentage>
+  <ns0:OperatingShare.OperatingParticipant rdf:resource="#_90b13a83-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperatingShare.PowerSystemResource rdf:resource="#_90b11374-8a32-11e5-b5f4-080027008896"/>
+ </ns0:OperatingShare>
+ <ns0:CurrentLimit rdf:ID="_90b58044-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>TrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b58042-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c2-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>376.53277587890625</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <ns0:VoltageLevel rdf:ID="_90b02912-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>BUS116.5KV</ns0:IdentifiedObject.name>
+  <ns0:VoltageLevel.BaseVoltage rdf:resource="#_90b00202-8a32-11e5-b5f4-080027008896"/>
+  <ns0:VoltageLevel.Substation rdf:resource="#_90b33653-8a32-11e5-b5f4-080027008896"/>
+ </ns0:VoltageLevel>
+ <ns0:CurrentLimit rdf:ID="_90b495e1-8a32-11e5-b5f4-080027008896">
+  <ns0:IdentifiedObject.name>WarningTrippingCurrent</ns0:IdentifiedObject.name>
+  <ns0:OperationalLimit.OperationalLimitSet rdf:resource="#_90b495e0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:OperationalLimit.OperationalLimitType rdf:resource="#_90b447c0-8a32-11e5-b5f4-080027008896"/>
+  <ns0:CurrentLimit.value>627.5546264648438</ns0:CurrentLimit.value>
+ </ns0:CurrentLimit>
+ <cim:ExcAVR1 rdf:ID="_d42e9210-c5c1-11e5-9f0a-080027008896"/>
+ <ns0:ExcAVR1 rdf:ID="_ee8ff540-c5c1-11e5-9f0a-080027008896">
+  <ns0:ExcitationSystemDynamics.SynchronousMachineDynamics rdf:resource="#_02c873a0-9e7d-11e5-a1af-080027008896"/>
+ </ns0:ExcAVR1>
+</rdf:RDF>
